@@ -107,9 +107,13 @@ code {
 }
 
 .issue-meta div {
-    width: 45%;
-    min-width: 15em;
+    width: 100%;
     margin: 0 2.5% 2.5% 0;
+}
+@media (min-width: 30em) {
+    .issue-meta div {
+        width: 45%;
+    }
 }
 
 .sample-list {
