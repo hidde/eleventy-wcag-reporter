@@ -57,7 +57,7 @@ Issues accept some meta data to help create the report:
 
 ## How to view reports
 
-1. Run `eleventy --serve` to start a server, this should show you links to all your reports
+1. After initial [setup](https://github.com/hidde/eleventy-wcag-reporter#set-up), run `eleventy --serve` to start a server, this should show you links to all your reports
 
 ## Changing stuff
 
