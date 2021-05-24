@@ -6,6 +6,8 @@ This repository lets you create WCAG EM Reports using 11ty.
 * Create reports in English or Dutch 
 * Automatically output a score card in the report 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0017f6df-43fe-4164-bae1-08bf391164b3/deploy-status)](https://app.netlify.com/sites/eleventy-wcag-reporter/deploys)
+
 ## Status of the project
 
 This is a side project, it comes with no warranty. 
