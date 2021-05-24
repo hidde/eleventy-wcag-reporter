@@ -144,6 +144,11 @@ code {
     color: gray;
     display: block;
     margin: .5em 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 90vw;
+    width: 35em;
 }
 
 .sample-list img {
