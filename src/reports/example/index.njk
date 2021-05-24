@@ -1,0 +1,43 @@
+---
+layout: report
+tags: reports
+title: The Example Company
+language: en
+evaluation:
+  evaluator: V. van Gogh
+  commissioner: The Example Company
+  target: WCAG 2.1, Level AA
+  targetLevel: AA
+  targetWcagVersion: 2.1
+  date: June 21, 2021
+  special requirements: Please also list accessibility problems that are not conformance failures
+scope:
+  - All pages on example.com
+out_of_scope:
+  - The RSS feed (https://foo.com/rss)
+  - Other page 2
+  - Some other page
+baseline: 
+  - Microsoft Edge (last 3 versions) 
+  - Mozilla Firefox (last 3 versions) 
+  - Google Chrome (last 3 versions) 
+  - Apple Safari (last 3 versions)
+  - Apple Safari on iOS
+  - common assistive technologies
+technologies: 
+  - HTML
+  - CSS
+  - JavaScript
+  - WAI-ARIA
+  - SVG
+sample:
+  - title: Homepage
+    id: homepage
+    url: https://example.com
+    description: The homepage of Example Company.
+  - title: Blog post
+    id: blog-post
+    url: https://example.com/blog/example-post
+    description: An example of a blog post
+---
+

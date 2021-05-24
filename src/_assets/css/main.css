@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+
+body { 
+    max-width: 50em;
+    margin: 2em auto;
+    font-family: "Noto Serif", "Georgia", serif;
+}
+
+.report-list {
+    padding: 0;
+}
+    .report-list li {
+        list-style-type: none;
+    }
+    .report-list a {
+        padding: .5em;
+        display: block;
+        background-color: whitesmoke;
+        margin-bottom: .25em;
+        color: black;
+        text-decoration: none;
+    }
+    .report-list a:hover {
+        background-color: gainsboro;
+    }

@@ -1,0 +1,25 @@
+{
+  "2.1": {
+    "A": {
+      "all": 30,
+      "perceivable": 9,
+      "operable": 14,
+      "understandable": 5,
+      "robust": 2
+    },
+    "AA": {
+      "all": 50,
+      "perceivable": 20,
+      "operable": 17,
+      "understandable": 10,
+      "robust": 3
+    },
+    "AAA": {
+      "all": 78,
+      "perceivable": 29,
+      "operable": 29,
+      "understandable": 17,
+      "robust": 3
+    }
+  }
+}

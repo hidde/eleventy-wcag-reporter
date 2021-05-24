@@ -1,0 +1,17 @@
+---
+layout: base
+---
+
+<h1>Reports</h1>
+
+<p>Please find all reports below:</p>
+
+<ul class="report-list">
+{%- for report in collections.reports -%}
+<li>
+  <a href="{{ report.url }}">
+    {{ report.data.title }} by {{ report.data.evaluation.evaluator }}
+  </a>
+</li>
+{%- endfor -%}
+</ul>
