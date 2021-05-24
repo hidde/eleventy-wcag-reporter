@@ -17,6 +17,8 @@ This is a side project, it comes with no warranty.
 ## Set up
 
 1. Install Eleventy globally with `npm install -g @11ty/eleventy`
+2. Run `npm install` to install all dependencies this project needs.
+3. Run `npm run dev` or `eleventy --serve` to start a local server and look at the reports
 
 ## Create a new report
 
