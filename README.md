@@ -6,6 +6,10 @@ This repository lets you create WCAG EM Reports using 11ty.
 * Create reports in English or Dutch 
 * Automatically output a score card in the report 
 
+## Status of the project
+
+This is a side project, it comes with no warranty. 
+
 ## Set up
 
 1. Install Eleventy globally with `npm install -g @11ty/eleventy`
