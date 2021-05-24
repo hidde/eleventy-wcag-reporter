@@ -1,10 +1,12 @@
 # WCAG Reporter
 
-This repository lets you create WCAG EM Reports using 11ty.
+This repository lets you create WCAG EM Reports using [Eleventy](https://www.11ty.dev/). 
 
 * Write issues as Markdown files
 * Create reports in English or Dutch 
 * Automatically output a score card in the report 
+
+Eleventy is a static site generator. In this project we use it to combine all Markdown files into one HTML file that is a report.
 
 Some more context in: [Introducing an Eleventy starter project for WCAG reports](https://hiddedevries.nl/en/blog/2021-05-24-introducing-an-eleventy-starter-project-for-wcag-reports)
 
@@ -16,9 +18,13 @@ This is a side project, it comes with no warranty.
 
 ## Set up
 
-1. Install Eleventy globally with `npm install -g @11ty/eleventy`
-2. Run `npm install` to install all dependencies this project needs.
-3. Run `npm run dev` or `eleventy --serve` to start a local server and look at the reports
+1. On the command line, install [Eleventy](https://www.11ty.dev/) globally with `npm install -g @11ty/eleventy`
+3. Get the project files; best [fork this project](https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-repo), then [clone](https://docs.github.com/en/enterprise-server@2.22/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) your copy. 
+4. When the project files are on your computer, go to folder that contains the project files
+5. Run `npm install` to install all dependencies this project needs.
+6. Run `npm run dev` or `eleventy --serve` to start a local server and look at the reports
+
+From now on, you'll onlly need to run that last step: `npm run dev` or `elevent --serve`.
 
 ## Create a new report
 
