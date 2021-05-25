@@ -24,6 +24,7 @@ const { reportname } = await prompt.get({ description: '>', name: 'reportname' }
 const report = slugify(reportname)
 const targetFolder = `${target}/${report}`
 const relativeTargetFolder = path.relative(__dirname, targetFolder) 
+
 if (fs.existsSync(targetFolder)) {
   console.log('')
   console.log(colors.red(`./${relativeTargetFolder}`), 'already exist!')
@@ -35,6 +36,7 @@ if (fs.existsSync(targetFolder)) {
 
 copy(`${sourceFolder}/**/*`, targetFolder, async (error, files) => {
   if (error) return console.error(error)
+
   console.log('')
   console.log(`Report ${colors.green(reportname)} created successfully.`)
   console.log(colors.yellow(`  ./${relativeTargetFolder}`))
@@ -43,6 +45,7 @@ copy(`${sourceFolder}/**/*`, targetFolder, async (error, files) => {
   console.log(`  (1) Remove ${colors.cyan('excludeFromCollections: true')} from ${colors.yellow(`./${relativeTargetFolder}/index.njk`)}`)
   console.log('  (2) Check all metadata and ensure it is correct for your')
   console.log('')
+
   console.log(`Do you want to open ${colors.yellow(`./${relativeTargetFolder}/index.njk`)} now?`)
   const { open } = await prompt.get({ description: 'Y/n', name: 'open' })
 
