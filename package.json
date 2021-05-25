@@ -25,7 +25,11 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "copy": "0.3.2",
     "fs": "0.0.1-security",
-    "prince": "^1.8.3"
+    "open-editor": "3.0.0",
+    "prince": "^1.8.3",
+    "prompt": "1.1.0",
+    "slugify": "1.5.3"
   }
 }
