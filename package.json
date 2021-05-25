@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "eleventy --serve",
     "build": "eleventy",
-    "create-pdf": "./create_report.sh"
+    "create-pdf": "./create_report.sh",
+    "add-report": "node add-report.js"
   },
   "repository": {
     "type": "git",

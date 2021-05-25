@@ -38,9 +38,9 @@ From now on, you'll onlly need to run that last step: `npm run dev` or `elevent 
 
 ## Create a report
 
-### Use the shell script
+### Use the npm script
 
-You can run `./add_report.sh`, which will ask for a name and duplicate the example folder with that name.
+You can run `npm run add-report`, which will ask for a name and duplicate the example folder with that name.
 
 ### Manually 
 
