@@ -27,6 +27,10 @@
     "en": "Scope",
     "nl": "Scope"
   },
+  "scope_items": {
+    "en": "Pages",
+    "nl": "Pagina's"
+  },
   "sample": {
     "en": "Sample",
     "nl": "Sample"
