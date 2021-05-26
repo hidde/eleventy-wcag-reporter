@@ -8,7 +8,8 @@ const scUri = require("./src/_utils/scUri.js");
 const scName = require("./src/_utils/scName.js");
 const slugify = require("./src/_utils/slugify.js");
 
-const reportsFolder = path.join(__dirname, 'src/reports')
+const reportsFolderRelative = 'src/reports';
+const reportsFolder = path.join(__dirname, reportsFolderRelative)
 
 const reports = fs.readdirSync(reportsFolder)
   .filter(reportName => {
@@ -33,7 +34,8 @@ module.exports = (function(eleventyConfig) {
   // create a collection of issues specific to each report, sorted by success criterion
   for (let i=0; i < reports.length; i++) {
     eleventyConfig.addCollection(reports[i], function (collectionApi) {
-      return collectionApi.getFilteredByGlob(`${reportsFolder}/${reports[i]}/**/*.md`)
+      return collectionApi
+        .getFilteredByGlob(`${reportsFolderRelative}/${reports[i]}/**/*.md`)
         .filter(item => !(item.data.sc === "none") && !(item.data.sc === undefined))
         .sort((a, b) => {
           const arrA = a.data.sc.split('.');
@@ -51,7 +53,7 @@ module.exports = (function(eleventyConfig) {
   for (let i=0; i < reports.length; i++) {
     eleventyConfig.addCollection(`${reports[i]}-tips`, function (collectionApi) {
       return collectionApi
-        .getFilteredByGlob(`${reportsFolder}/${reports[i]}/**/*.md`)
+        .getFilteredByGlob(`${reportsFolderRelative}/${reports[i]}/**/*.md`)
         .filter(item => (item.data.sc === "none"))
     });
   }
