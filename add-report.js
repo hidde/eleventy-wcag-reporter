@@ -43,7 +43,7 @@ copy(`${sourceFolder}/**/*`, targetFolder, async (error, files) => {
   console.log('')
   console.log('Almost there.')
   console.log(`  (1) Remove ${colors.cyan('excludeFromCollections: true')} from ${colors.yellow(`./${relativeTargetFolder}/index.njk`)}`)
-  console.log('  (2) Check all metadata and ensure it is correct for your')
+  console.log('  (2) Check all metadata and ensure it is correct for your report')
   console.log('')
 
   console.log(`Do you want to open ${colors.yellow(`./${relativeTargetFolder}/index.njk`)} now?`)
