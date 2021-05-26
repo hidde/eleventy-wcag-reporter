@@ -59,7 +59,7 @@ Issues accept some meta data to help create the report:
 
 | Key     | Example | Description |
 |------|----------|------|
-| sc | 2.4.7 | The Success Criterion the issue falls under, numbers only, separted by dots or `none` to render as tip |
+| sc | 2.4.7 | The Success Criterion the issue falls under, numbers only, separated by dots or `none` to render as tip |
 | severity | Low, Medium, High | Group issues by severity (these are just strings, use what works for you or your client) |
 | difficulty | Low, Medium, High | Group issues by difficulty |
 | title | Focus style missing | Name for the issue |
