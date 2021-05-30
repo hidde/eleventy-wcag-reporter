@@ -32,7 +32,7 @@ _This is a side project, it comes with no warranty._
 5. Run `npm install` to install all dependencies this project needs.
 6. Run `npm run dev` or `eleventy --serve` to start a local server and look at the reports
 7. Customise the reports: add your own logo, colors, typography and content. There is [cipsum](https://cipsum.com/) everywhere/
-8. [Create a new report](#create-a-new-report)
+8. [Create a new report](#create-a-report)
 
 From now on, you'll onlly need to run that last step: `npm run dev` or `elevent --serve`.
 
