@@ -632,6 +632,398 @@
         "id": "parsen",
         "name": "Parsen"
       }
+    },
+    "pt": {
+      "1.1.1": {
+        "id": "non-text-content",
+        "name": "Conteúdo não textual",
+        "level": "A"
+      },
+      "1.2.1": {
+        "id": "audio-only-and-video-only-prerecorded",
+        "name": "Apenas áudio ou apenas vídeo (pré-gravado)",
+        "level": "A"
+      },
+      "1.2.2": {
+        "id": "captions-prerecorded",
+        "name": "Legendas (pré-gravado)",
+        "level": "A"
+      },
+      "1.2.3": {
+        "id": "audio-description-or-media-alternative-prerecorded",
+        "name": "Audiodescrição ou mídia alternativa (pré-gravado)",
+        "level": "A"
+      },
+      "1.2.4": {
+        "id": "captions-live",
+        "name": "Legendas (ao vivo)",
+        "level": "AA"
+      },
+      "1.2.5": {
+        "id": "audio-description-prerecorded",
+        "name": "Audiodescrição (pré-gravado)",
+        "level": "AA"
+      },
+      "1.2.6": {
+        "id": "sign-language-prerecorded",
+        "name": "Língua de sinais (pré-gravado)",
+        "level": "AAA"
+      },
+      "1.2.7": {
+        "id": "extended-audio-description-prerecorded",
+        "name": "Audiodescrição estendida (pré-gravado)",
+        "level": "AAA"
+      },
+      "1.2.8": {
+        "id": "media-alternative-prerecorded",
+        "name": "Mídia Alternativa (pré-gravado)",
+        "level": "AAA"
+      },
+      "1.2.9": {
+        "id": "audio-only-live",
+        "name": "Apenas aúdio (ao vivo)",
+        "level": "AAA"
+      },
+      "1.3.1": {
+        "id": "info-and-relationships",
+        "name": "Informações e relações",
+        "level": "A"
+      },
+      "1.3.2": {
+        "id": "meaningful-sequence",
+        "name": "Sequência com significado",
+        "level": "A"
+      },
+      "1.3.3": {
+        "id": "sensory-characteristics",
+        "name": "Características sensoriais",
+        "level": "A"
+      },
+      "1.3.4": {
+        "id": "orientation",
+        "name": "Orientação",
+        "level": "AA"
+      },
+      "1.3.5": {
+        "id": "identify-input-purpose",
+        "name": "Identificar o objetivo de entrada",
+        "level": "AA"
+      },
+      "1.3.6": {
+        "id": "identify-purpose",
+        "name": "Identificar o objetivo",
+        "level": "AAA"
+      },
+      "1.4.1": {
+        "id": "use-of-color",
+        "name": "Utilização de Cores",
+        "level": "A"
+      },
+      "1.4.2": {
+        "id": "audio-control",
+        "name": "Controle de aúdio",
+        "level": "A"
+      },
+      "1.4.3": {
+        "id": "contrast-minimum",
+        "name": "Contraste (mínimo)",
+        "level": "AA"
+      },
+      "1.4.4": {
+        "id": "resize-text",
+        "name": "Redimensionar texto",
+        "level": "AA"
+      },
+      "1.4.5": {
+        "id": "images-of-text",
+        "name": "Imagens de texto",
+        "level": "AA"
+      },
+      "1.4.6": {
+        "id": "contrast-enhanced",
+        "name": "Contraste (melhorado)",
+        "level": "AAA"
+      },
+      "1.4.7": {
+        "id": "low-or-no-background-audio",
+        "name": "Som baixo ou sem som de fundo",
+        "level": "AAA"
+      },
+      "1.4.8": {
+        "id": "visual-presentation",
+        "name": "Apresentação visual",
+        "level": "AAA"
+      },
+      "1.4.9": {
+        "id": "images-of-text-no-exception",
+        "name": "Imagens de texto (sem exceção)",
+        "level": "AAA"
+      },
+      "1.4.10": {
+        "id": "reflow",
+        "name": "Refluxo",
+        "level": "AA"
+      },
+      "1.4.11": {
+        "id": "non-text-contrast",
+        "name": "Contraste Não-Textual",
+        "level": "AA"
+      },
+      "1.4.12": {
+        "id": "text-spacing",
+        "name": "Espaçamento de texto",
+        "level": "AA"
+      },
+      "1.4.13": {
+        "id": "content-on-hover-or-focus",
+        "name": "Conteúdo em foco por mouse ou teclado",
+        "level": "AA"
+      },
+      "2.1.1": {
+        "id": "keyboard",
+        "name": "Teclado",
+        "level": "A"
+      },
+      "2.1.2": {
+        "id": "no-keyboard-trap",
+        "name": "Sem bloqueio de teclado",
+        "level": "A"
+      },
+      "2.1.3": {
+        "id": "keyboard-no-exception",
+        "name": "Teclado (sem exceção)",
+        "level": "AAA"
+      },
+      "2.1.4": {
+        "id": "character-key-shortcuts",
+        "name": "Atalhos de teclado por caractere",
+        "level": "A"
+      },
+      "2.2.1": {
+        "id": "timing-adjustable",
+        "name": "Ajustável por limite de tempo",
+        "level": "A"
+      },
+      "2.2.2": {
+        "id": "pause-stop-hide",
+        "name": "Colocar em pausa, parar ou ocultar",
+        "level": "A"
+      },
+      "2.2.3": {
+        "id": "no-timing",
+        "name": "Sem limite de tempo",
+        "level": "AAA"
+      },
+      "2.2.4": {
+        "id": "interruptions",
+        "name": "Interrupções",
+        "level": "AAA"
+      },
+      "2.2.5": {
+        "id": "re-authenticating",
+        "name": "Nova autenticação",
+        "level": "AAA"
+      },
+      "2.2.6": {
+        "id": "timeouts",
+        "name": "Limites de tempo",
+        "level": "AAA"
+      },
+      "2.3.1": {
+        "id": "three-flashes-or-below-threshold",
+        "name": "Três flashes ou abaixo do limite",
+        "level": "A"
+      },
+      "2.3.2": {
+        "id": "three-flashes",
+        "name": "Três flashes",
+        "level": "AAA"
+      },
+      "2.3.3": {
+        "id": "animation-from-interactions",
+        "name": "Animações de interações",
+        "level": "AAA"
+      },
+      "2.4.1": {
+        "id": "bypass-blocks",
+        "name": "Ignorar blocos",
+        "level": "A"
+      },
+      "2.4.2": {
+        "id": "page-titled",
+        "name": "Página com título",
+        "level": "A"
+      },
+      "2.4.3": {
+        "id": "focus-order",
+        "name": "Ordem do foco",
+        "level": "A"
+      },
+      "2.4.4": {
+        "id": "link-purpose-in-context",
+        "name": "Finalidade do link (em contexto)",
+        "level": "A"
+      },
+      "2.4.5": {
+        "id": "multiple-ways",
+        "name": "Várias formas",
+        "level": "AA"
+      },
+      "2.4.6": {
+        "id": "headings-and-labels",
+        "name": "Cabeçalhos e rótulos",
+        "level": "AA"
+      },
+      "2.4.7": {
+        "id": "focus-visible",
+        "name": "Focus visível",
+        "level": "AA"
+      },
+      "2.4.8": {
+        "id": "location",
+        "name": "Localização",
+        "level": "AAA"
+      },
+      "2.4.9": {
+        "id": "link-purpose-link-only",
+        "name": "Finalidade do link (apenas link)",
+        "level": "AAA"
+      },
+      "2.4.10": {
+        "id": "section-headings",
+        "name": "Cabeçalhos de sessão",
+        "level": "AAA"
+      },
+      "2.5.1": {
+        "id": "pointer-gestures",
+        "name": "Gestos de acionamento",
+        "level": "A"
+      },
+      "2.5.2": {
+        "id": "pointer-cancellation",
+        "name": "Cancelamento de acionamento",
+        "level": "A"
+      },
+      "2.5.3": {
+        "id": "label-in-name",
+        "name": "Rótulo no Nome acessível",
+        "level": "A"
+      },
+      "2.5.4": {
+        "id": "motion-actuation",
+        "name": "Atuação em movimento",
+        "level": "A"
+      },
+      "2.5.5": {
+        "id": "target-size",
+        "name": "Tamanho da área clicável",
+        "level": "AAA"
+      },
+      "2.5.6": {
+        "id": "concurrent-input-mechanisms",
+        "name": "Mecanismos de entrada simultâneos",
+        "level": "AAA"
+      },
+      "3.1.1": {
+        "id": "language-of-page",
+        "name": "Idioma da página",
+        "level": "A"
+      },
+      "3.1.2": {
+        "id": "language-of-parts",
+        "name": "Idioma das partes",
+        "level": "AA"
+      },
+      "3.1.3": {
+        "id": "unusual-words",
+        "name": "Palavras incomuns",
+        "level": "AAA"
+      },
+      "3.1.4": {
+        "id": "abbreviations",
+        "name": "Abreviações",
+        "level": "AAA"
+      },
+      "3.1.5": {
+        "id": "reading-level",
+        "name": "Nível de leitura",
+        "level": "AAA"
+      },
+      "3.1.6": {
+        "id": "pronunciation",
+        "name": "Pronúncia",
+        "level": "AAA"
+      },
+      "3.2.1": {
+        "id": "on-focus",
+        "name": "Em foco",
+        "level": "A"
+      },
+      "3.2.2": {
+        "id": "on-input",
+        "name": "Em entrada",
+        "level": "A"
+      },
+      "3.2.3": {
+        "id": "consistent-navigation",
+        "name": "Navegação consistente",
+        "level": "AA"
+      },
+      "3.2.4": {
+        "id": "consistent-identification",
+        "name": "Identificação consistente",
+        "level": "AA"
+      },
+      "3.2.5": {
+        "id": "change-on-request",
+        "name": "Alteração a pedido",
+        "level": "AAA"
+      },
+      "3.3.1": {
+        "id": "error-identification",
+        "name": "Identificação do erro",
+        "level": "A"
+      },
+      "3.3.2": {
+        "id": "labels-or-instructions",
+        "name": "Rótulos e Instruções",
+        "level": "A"
+      },
+      "3.3.3": {
+        "id": "error-suggestion",
+        "name": "Sugestão de erro",
+        "level": "AA"
+      },
+      "3.3.4": {
+        "id": "error-prevention-legal-financial-data",
+        "name": "Prevenção de Erro (legal, financeiro, dados)",
+        "level": "AA"
+      },
+      "3.3.5": {
+        "id": "help",
+        "name": "Ajuda",
+        "level": "AAA"
+      },
+      "3.3.6": {
+        "id": "error-prevention-all",
+        "name": "Prevenção de erro (todos)",
+        "level": "AAA"
+      },
+      "4.1.1": {
+        "id": "parsing",
+        "name": "Análise de código",
+        "level": "A"
+      },
+      "4.1.2": {
+        "id": "name-role-value",
+        "name": "Nome, função, valor",
+        "level": "A"
+      },
+      "4.1.3": {
+        "id": "status-messages",
+        "name": "Mensagens de status",
+        "level": "AA"
+      }
     }
   }
 }
