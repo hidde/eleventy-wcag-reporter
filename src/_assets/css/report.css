@@ -189,23 +189,6 @@ code {
   width: 1px;
 }
 
-/* For Prince */
-
-@media print {
-
-  h1 {
-    string-set: doctitle content();
-  }
-
-  body {
-    font-size: 10pt;
-  }
-  
-  .issue {
-    border: 0;
-    padding: 0;
-    break-before: page;
-  }
 table {
     border-collapse: collapse;
 }
