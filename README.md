@@ -22,6 +22,7 @@ _This is a side project, it comes with no warranty._
 | Dutch          |  nl  | Report itself, WCAG 2.1 | 
 | Spanish        |  tbd | [worked on in #8](https://github.com/hidde/eleventy-wcag-reporter/issues/8) | 
 | Finnish        |  tbd | [worked on in #7](https://github.com/hidde/eleventy-wcag-reporter/issues/7) |
+| Brazilian Portuguese |  pt | [worked on in #18](https://github.com/hidde/eleventy-wcag-reporter/issues/18) |
 
 
 ## Set up
