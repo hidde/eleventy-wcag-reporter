@@ -1,11 +1,21 @@
+const fs = require('fs')
+const path = require('path')
 const markdownShortcode = require("eleventy-plugin-markdown-shortcode");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const reports = require("./reports.json");
 const scTable = require("./src/_utils/scTable.js");
 const sampleImage = require("./src/_utils/sampleImage.js");
 const scUri = require("./src/_utils/scUri.js");
 const scName = require("./src/_utils/scName.js");
 const slugify = require("./src/_utils/slugify.js");
+
+const reportsFolderRelative = 'src/reports';
+const reportsFolder = path.join(__dirname, reportsFolderRelative)
+
+const reports = fs.readdirSync(reportsFolder)
+  .filter(reportName => {
+    const reportPath = path.join(reportsFolder, reportName)
+    return fs.existsSync(reportPath) && fs.lstatSync(reportPath).isDirectory()
+  })
 
 module.exports = (function(eleventyConfig) {
   eleventyConfig.addFilter("sc_uri", scUri);
@@ -22,9 +32,10 @@ module.exports = (function(eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
   
   // create a collection of issues specific to each report, sorted by success criterion
-  for (let i=0; i < reports.reportNames.length; i++) {
-    eleventyConfig.addCollection(reports.reportNames[i], function (collectionApi) {
-      return collectionApi.getFilteredByGlob(`./src/reports/${reports.reportNames[i]}/**/*.md`)
+  for (let i=0; i < reports.length; i++) {
+    eleventyConfig.addCollection(reports[i], function (collectionApi) {
+      return collectionApi
+        .getFilteredByGlob(`${reportsFolderRelative}/${reports[i]}/**/*.md`)
         .filter(item => !(item.data.sc === "none") && !(item.data.sc === undefined))
         .sort((a, b) => {
           const arrA = a.data.sc.split('.');
@@ -39,10 +50,10 @@ module.exports = (function(eleventyConfig) {
   }
 
   // create a collection of “tips” specific to each report (all issues with sc set to "none")
-  for (let i=0; i < reports.reportNames.length; i++) {
-    eleventyConfig.addCollection(`${reports.reportNames[i]}-tips`, function (collectionApi) {
+  for (let i=0; i < reports.length; i++) {
+    eleventyConfig.addCollection(`${reports[i]}-tips`, function (collectionApi) {
       return collectionApi
-        .getFilteredByGlob(`./src/reports/${reports.reportNames[i]}/**/*.md`)
+        .getFilteredByGlob(`${reportsFolderRelative}/${reports[i]}/**/*.md`)
         .filter(item => (item.data.sc === "none"))
     });
   }

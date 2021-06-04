@@ -10,11 +10,19 @@ Eleventy is a static site generator. In this project we use it to combine all Ma
 
 Some more context in: [Introducing an Eleventy starter project for WCAG reports](https://hiddedevries.nl/en/blog/2021-05-24-introducing-an-eleventy-starter-project-for-wcag-reports)
 
+_This is a side project, it comes with no warranty._
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0017f6df-43fe-4164-bae1-08bf391164b3/deploy-status)](https://app.netlify.com/sites/eleventy-wcag-reporter/deploys)
 
-## Status of the project
+## Supported languages
 
-This is a side project, it comes with no warranty. 
+| Language       | Code | Supports                |
+|----------------|------|-------------------------|
+| English        |  en  | Report itself, WCAG 2.1 |
+| Dutch          |  nl  | Report itself, WCAG 2.1 | 
+| Spanish        |  tbd | [worked on in #8](https://github.com/hidde/eleventy-wcag-reporter/issues/8) | 
+| Finnish        |  tbd | [worked on in #7](https://github.com/hidde/eleventy-wcag-reporter/issues/7) |
+
 
 ## Set up
 
@@ -23,14 +31,16 @@ This is a side project, it comes with no warranty.
 4. When the project files are on your computer, go to folder that contains the project files
 5. Run `npm install` to install all dependencies this project needs.
 6. Run `npm run dev` or `eleventy --serve` to start a local server and look at the reports
+7. Customise the reports: add your own logo, colors, typography and content. There is [cipsum](https://cipsum.com/) everywhere/
+8. [Create a new report](#create-a-report)
 
 From now on, you'll onlly need to run that last step: `npm run dev` or `elevent --serve`.
 
-## Create a new report
+## Create a report
 
-### Use the shell script
+### Use the npm script
 
-You can run `./add_report.sh`, which will ask for a name and duplicate the example folder with that name.
+You can run `npm run add-report`, which will ask for a name and duplicate the example folder with that name.
 
 ### Manually 
 
@@ -49,17 +59,17 @@ Issues accept some meta data to help create the report:
 
 | Key     | Example | Description |
 |------|----------|------|
-| sc | 2.4.7 | The Success Criterion the issue falls under, numbers only, separted by dots or `none` to render as tip |
+| sc | 2.4.7 | The Success Criterion the issue falls under, numbers only, separated by dots or `none` to render as tip |
 | severity | Low, Medium, High | Group issues by severity (these are just strings, use what works for you or your client) |
 | difficulty | Low, Medium, High | Group issues by difficulty |
 | title | Focus style missing | Name for the issue |
 | sample | homepage |  Refer issue back to sample ID, or `all` if not related to specific example |
 
-## How to view reports
+## View your reports
 
-1. Run `eleventy --serve` to start a server, this should show you links to all your reports
+1. After initial [setup](https://github.com/hidde/eleventy-wcag-reporter#set-up), run `eleventy --serve` to start a server, this should show you links to all your reports
 
-## Changing stuff
+## Tweak the report to your liking
 
 This tool is meant to help generate WCAG EM reports effectively. Nothing is set in stone, you can change it to your liking.
 
