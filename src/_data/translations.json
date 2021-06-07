@@ -1,134 +1,167 @@
 {
   "report_for": {
     "en": "Accessibility Conformance Report for ",
-    "nl": "Rapport: toegankelijkheid van "
+    "nl": "Rapport: toegankelijkheid van ",
+    "es": "Informe de accesibilidad para "
   },
   "evaluated_by": {
     "en": "Evaluated by",
-    "nl": "Onderzocht door"
+    "nl": "Onderzocht door",
+    "es": "Evaluado por"
   },
   "commissioned_by": {
     "en": "Commissioned by",
-    "nl": "In opdracht van"
+    "nl": "In opdracht van",
+    "es": "Solicitado por"
   },
   "target": {
     "en": "Target",
-    "nl": "Conformiteitsdoel"
+    "nl": "Conformiteitsdoel",
+    "es": "Objetivo"
   },
   "date": {
     "en": "Date",
-    "nl": "Datum"
+    "nl": "Datum",
+    "es": "Fecha"
   },
   "special_requirements": {
     "en": "Special requirements",
-    "nl": "Speciale eisen"
+    "nl": "Speciale eisen",
+    "es": "Requerimientos especiales"
   },
   "scope": {
     "en": "Scope",
-    "nl": "Scope"
+    "nl": "Scope",
+    "es": "Alcance"
   },
   "sample": {
     "en": "Sample",
-    "nl": "Sample"
+    "nl": "Sample",
+    "es": "Muestra"
   },
   "representative_sample": {
     "en": "Representative sample",
-    "nl": "Voor dit onderzoek zijn de volgende pagina's gebruikt als representatieve steekproef van de onderzochte website:"
+    "nl": "Voor dit onderzoek zijn de volgende pagina's gebruikt als representatieve steekproef van de onderzochte website:",
+    "es": "Muestra representativa"
   },
   "not_in_scope": {
     "en": "Not in scope",
-    "nl": "Niet in scope"
+    "nl": "Niet in scope",
+    "es": "Fuera de alcance"
   },
   "issue": {
     "en": "Issue",
-    "nl": "Bevinding"
+    "nl": "Bevinding",
+    "es": "Problema"
   },
   "issues": {
     "en": "Issues",
-    "nl": "Bevindingen"
+    "nl": "Bevindingen",
+    "es": "Problemas"
   },
   "wcag_criterion": {
     "en": "WCAG criterion",
-    "nl": "WCAG criterium"
+    "nl": "WCAG criterium",
+    "es": "Criterio WCAG"
   },
   "severity": {
     "en": "Severity",
-    "nl": "Ernst"
+    "nl": "Ernst",
+    "es": "Severidad"
   },
   "difficulty": {
     "en": "Difficulty",
-    "nl": "Complexiteit"
+    "nl": "Complexiteit",
+    "es": "Complejidad"
   },
   "executive_summary": {
     "en": "Executive summary",
-    "nl": "Samenvatting"
+    "nl": "Samenvatting",
+    "es": "Resumen ejecutivo"
   },
   "about_this_report": {
     "en": "About this report",
-    "nl": "Toelichting bij dit rapport"
+    "nl": "Toelichting bij dit rapport",
+    "es": "Acerca de este informe"
   },
   "principle": {
     "en": "Principle",
-    "nl": "Principe"
+    "nl": "Principe",
+    "es": "Principio"
   },
   "perceivable": {
     "en": "Perceivable",
-    "nl": "Waarneembaar"
+    "nl": "Waarneembaar",
+    "es": "Percibible"
   },
   "operable": {
     "en": "Operable",
-    "nl": "Bedienbaar"
+    "nl": "Bedienbaar",
+    "es": "Operable"
   },
   "understandable": {
     "en": "Understandable",
-    "nl": "Begrijpelijk"
+    "nl": "Begrijpelijk",
+    "es": "Entendible"
   },
   "robust": {
     "en": "Robust",
-    "nl": "Robuust"
+    "nl": "Robuust",
+    "es": "Robusto"
   },
   "results_per_principle": {
     "en": "Results by principle",
-    "nl": "Resultaten per principe"
+    "nl": "Resultaten per principe",
+    "es": "Resultados por principio"
   },
   "total": {
     "en": "Total",
-    "nl": "Totaal"
+    "nl": "Totaal",
+    "es": "Total"
   },
   "of": {
     "en": "of",
-    "nl": "uit"
+    "nl": "uit",
+    "es": "de"
   },
   "all_pages": {
     "en": "All pages",
-    "nl": "Alle pagina's"
+    "nl": "Alle pagina's",
+    "es": "Todas las páginas"
   },
   "accessibility_support": {
     "en": "Accessibility support",
-    "nl": "Ondersteuning"
+    "nl": "Ondersteuning",
+    "es": "Soporte de accesibilidad"
   },
   "technologies_used": {
     "en": "Technologies used",
-    "nl": "Gebruikte technologieën"
+    "nl": "Gebruikte technologieën",
+    "es": "Tecnologías utilizadas"
   },
   "accessibility_support_explanation": {
     "en": "The audited website should work in at least the following browsers and assistive technologies: ",
-    "nl": "De onderzochte website zou minimaal moeten kunnen worden gebruikt in de volgende browsers en hulptechnologieën:"
+    "nl": "De onderzochte website zou minimaal moeten kunnen worden gebruikt in de volgende browsers en hulptechnologieën:",
+    "es": "El sitio web auditado debe trabajar en al menos los siguientes navegadores y tecnologías de asistencia: "
   },
   "technologies_explanation": {
     "en": "The audited web page relies on the following technologies: ",
-    "nl": "De onderzochte maakt gebruik van de volgende technologieën: "
+    "nl": "De onderzochte maakt gebruik van de volgende technologieën: ",
+    "es": "La página web auditada utiliza en las siguientes tecnologías: "
   },
   "tip": {
     "en": "Tip",
-    "nl": "Tip"
+    "nl": "Tip",
+    "es": "Consejo"
   },
   "external_link": {
     "en": "external link",
-    "nl": "externe link"
+    "nl": "externe link",
+    "es": "Link externo"
   },
   "base_uri": {
     "en": "https://www.w3.org/WAI/WCAG21/quickref/?versions=2.1",
-    "nl": "https://www.w3.org/Translations/WCAG21-nl"
+    "nl": "https://www.w3.org/Translations/WCAG21-nl",
+    "es": "http://www.codexexempla.org/traducciones/pautas-accesibilidad-contenido-web-2.0.htm"
   }
 }
