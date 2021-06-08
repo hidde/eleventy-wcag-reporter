@@ -27,7 +27,7 @@ In progress:
 * Spanish ([worked on in #8](https://github.com/hidde/eleventy-wcag-reporter/issues/8))
 * Finnish ([worked on in #7](https://github.com/hidde/eleventy-wcag-reporter/issues/7))
 
-Want to contribute a language? [Create a new issue from the language template](https://github.com/hidde/eleventy-wcag-reporter/issues/new?assignees=&labels=i18n&template=add-language-support.md&title=Add+translation%3A+%5Blanguage%5D) and file a Pull Request.
+Want to contribute a language? [Create an issue](https://github.com/hidde/eleventy-wcag-reporter/issues/new?assignees=&labels=i18n&template=add-language-support.md&title=Add+translation%3A+%5Blanguage%5D) (to indicate you'd like to take this on; the template has some instructions) and file a Pull Request.
 
 
 ## Set up
