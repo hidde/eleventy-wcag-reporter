@@ -5,6 +5,7 @@ This repository lets you create WCAG EM Reports using [Eleventy](https://www.11t
 * Write issues as Markdown files
 * Create reports in English or Dutch 
 * Automatically output a score card in the report 
+* Include your boilerplate easily, so that you can focus on describing issues
 
 Eleventy is a static site generator. In this project we use it to combine all Markdown files into one HTML file that is a report.
 
@@ -37,7 +38,7 @@ Want to contribute a language? [Create an issue](https://github.com/hidde/eleven
 4. When the project files are on your computer, go to folder that contains the project files
 5. Run `npm install` to install all dependencies this project needs.
 6. Run `npm run dev` or `eleventy --serve` to start a local server and look at the reports
-7. Customise the reports: add your own logo, colors, typography and content. There is [cipsum](https://cipsum.com/) everywhere/
+7. Customise the reports: add your own logo, colors, typography and content. There is [cipsum](https://cipsum.com/) everywhere.
 8. [Create a new report](#create-a-report)
 
 From now on, you'll onlly need to run that last step: `npm run dev` or `elevent --serve`.
