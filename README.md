@@ -16,13 +16,13 @@ _This is a side project, it comes with no warranty._
 
 ## Supported languages
 
-| Language       | Code | Supports                |
-|----------------|------|-------------------------|
-| English        |  en  | Report itself, WCAG 2.1 |
-| Dutch          |  nl  | Report itself, WCAG 2.1 | 
-| Spanish        |  tbd | [worked on in #8](https://github.com/hidde/eleventy-wcag-reporter/issues/8) | 
-| Finnish        |  tbd | [worked on in #7](https://github.com/hidde/eleventy-wcag-reporter/issues/7) |
-| Brazilian Portuguese |  pt-br | [worked on in #18](https://github.com/hidde/eleventy-wcag-reporter/issues/18) |
+| Language             | Code    | Supports                     | Credits           | 
+|----------------------|---------|------------------------------|-------------------|
+| Brazilian Portuguese |  pt-br  | Report itself, WCAG 2.1      | @brunopulis       |
+| Dutch                |  nl     | Report itself, WCAG 2.1      | @hidde            |
+| English              |  en     | Report itself, WCAG 2.1      | @hidde            |
+| Spanish              |  tbd    | [worked on in #8](https://github.com/hidde/eleventy-wcag-reporter/issues/8) |  - |
+| Finnish              |  tbd    | [worked on in #7](https://github.com/hidde/eleventy-wcag-reporter/issues/7) |  - | 
 
 
 ## Set up
