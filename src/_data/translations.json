@@ -2,171 +2,208 @@
   "report_for": {
     "en": "Accessibility Conformance Report for ",
     "nl": "Rapport: toegankelijkheid van ",
-    "pt-br": "Relatório de conformidade de acessibilidade para "
+    "pt-br": "Relatório de conformidade de acessibilidade para ",
+    "es": "Informe de accesibilidad para "
   },
   "evaluated_by": {
     "en": "Evaluated by",
     "nl": "Onderzocht door",
-    "pt-br": "Avaliado por"
+    "pt-br": "Avaliado por",
+    "es": "Evaluado por"
   },
   "commissioned_by": {
     "en": "Commissioned by",
     "nl": "In opdracht van",
-    "pt-br": "Comissionado por"
+    "pt-br": "Comissionado por",
+    "es": "Solicitado por"
   },
   "target": {
     "en": "Target",
     "nl": "Conformiteitsdoel",
-    "pt-br": "Alvo"
+    "pt-br": "Alvo",
+    "es": "Objetivo"
   },
   "date": {
     "en": "Date",
     "nl": "Datum",
-    "pt-br": "Data"
+    "pt-br": "Data",
+    "es": "Fecha"
   },
   "special_requirements": {
     "en": "Special requirements",
     "nl": "Speciale eisen",
-    "pt-br": "Requisitos especiais"
+    "pt-br": "Requisitos especiais",
+    "es": "Requerimientos especiales"
   },
   "scope": {
     "en": "Scope",
     "nl": "Scope",
-    "pt-br": "Escopo"
+    "pt-br": "Escopo",
+    "es": "Alcance"
   },
   "scope_items": {
     "en": "Pages",
     "nl": "Pagina's",
-    "pt-br": "Páginas"
+    "pt-br": "Páginas",
+    "es": "Páginas"
+
   },
   "sample": {
     "en": "Sample",
     "nl": "Sample",
-    "pt-br": "Amostra"
+    "pt-br": "Amostra",
+    "es": "Muestra"
   },
   "representative_sample": {
     "en": "Representative sample",
     "nl": "Voor dit onderzoek zijn de volgende pagina's gebruikt als representatieve steekproef van de onderzochte website:",
-    "pt-br": "Para este estudo, as seguintes páginas foram utilizadas como uma amostra representativa do site pesquisado:"
+    "pt-br": "Para este estudo, as seguintes páginas foram utilizadas como uma amostra representativa do site pesquisado:",
+    "es": "Muestra representativa"
   },
   "not_in_scope": {
     "en": "Not in scope",
     "nl": "Niet in scope",
-    "pt-br": "Fora do escopo"
+    "pt-br": "Fora do escopo",
+    "es": "Fuera de alcance"
   },
   "issue": {
     "en": "Issue",
     "nl": "Bevinding",
-    "pt-br": "Problema"
+    "pt-br": "Problema",
+    "es": "Problema"
+
   },
   "issues": {
     "en": "Issues",
     "nl": "Bevindingen",
-    "pt-br": "Problemas"
+    "pt-br": "Problemas",
+    "es": "Problemas"
   },
   "wcag_criterion": {
     "en": "WCAG criterion",
     "nl": "WCAG criterium",
-    "pt-br": "Critério WCAG"
+    "pt-br": "Critério WCAG",
+    "es": "Criterio WCAG"
   },
   "severity": {
     "en": "Severity",
     "nl": "Ernst",
-    "pt-br": "Severidade"
+    "pt-br": "Severidade",
+    "es": "Severidad"
   },
   "difficulty": {
     "en": "Difficulty",
     "nl": "Complexiteit",
-    "pt-br": "Dificuldade"
+    "pt-br": "Dificuldade",
+    "es": "Complejidad"
   },
   "executive_summary": {
     "en": "Executive summary",
     "nl": "Samenvatting",
-    "pt-br": "Sumário executivo"
+    "pt-br": "Sumário executivo",
+    "es": "Resumen ejecutivo"
   },
   "about_this_report": {
     "en": "About this report",
     "nl": "Toelichting bij dit rapport",
-    "pt-br": "Sobre esse relatório"
+    "pt-br": "Sobre esse relatório",
+    "es": "Acerca de este informe"
   },
   "principle": {
     "en": "Principle",
     "nl": "Principe",
-    "pt-br": "Princípio"
+    "pt-br": "Princípio",
+    "es": "Principio"
   },
   "perceivable": {
     "en": "Perceivable",
     "nl": "Waarneembaar",
-    "pt-br": "Perceptível"
+    "pt-br": "Perceptível",
+    "es": "Percibible"
   },
   "operable": {
     "en": "Operable",
     "nl": "Bedienbaar",
-    "pt-br": "Operável"
+    "pt-br": "Operável",
+    "es": "Operable"
   },
   "understandable": {
     "en": "Understandable",
     "nl": "Begrijpelijk",
-    "pt-br": "Compreensível"
+    "pt-br": "Compreensível",
+    "es": "Entendible"
   },
   "robust": {
     "en": "Robust",
     "nl": "Robuust",
-    "pt-br": "Robusto"
+    "pt-br": "Robusto",
+    "es": "Robusto"
   },
   "results_per_principle": {
     "en": "Results by principle",
     "nl": "Resultaten per principe",
-    "pt-br": "Resultados por princípio"
+    "pt-br": "Resultados por princípio",
+    "es": "Resultados por principio"
   },
   "total": {
     "en": "Total",
     "nl": "Totaal",
-    "pt-br": "Total"
+    "pt-br": "Total",
+    "es": "Total"
   },
   "of": {
     "en": "of",
     "nl": "uit",
-    "pt-br": "de"
+    "pt-br": "de",
+    "es": "de"
   },
   "all_pages": {
     "en": "All pages",
     "nl": "Alle pagina's",
-    "pt-br": "Todas as páginas"
+    "pt-br": "Todas as páginas",
+    "es": "Todas las páginas"
   },
   "accessibility_support": {
     "en": "Accessibility support",
     "nl": "Ondersteuning",
-    "pt-br": "Suporte de acessibilidade"
+    "pt-br": "Suporte de acessibilidade",
+    "es": "Soporte de accesibilidad"
   },
   "technologies_used": {
     "en": "Technologies used",
     "nl": "Gebruikte technologieën",
-    "pt-br": "Tecnologias utilizadas"
+    "pt-br": "Tecnologias utilizadas",
+    "es": "Tecnologías utilizadas"
   },
   "accessibility_support_explanation": {
     "en": "The audited website should work in at least the following browsers and assistive technologies: ",
     "nl": "De onderzochte website zou minimaal moeten kunnen worden gebruikt in de volgende browsers en hulptechnologieën:",
-    "pt-br": "O site auditado deve funcionar pelo menos nos seguintes navegadores e tecnologias assistivas: "
+    "pt-br": "O site auditado deve funcionar pelo menos nos seguintes navegadores e tecnologias assistivas: ",
+    "es": "El sitio web auditado debe trabajar en al menos los siguientes navegadores y tecnologías de asistencia: "
   },
   "technologies_explanation": {
     "en": "The audited web page relies on the following technologies: ",
     "nl": "De onderzochte maakt gebruik van de volgende technologieën: ",
-    "pt-br": "A página da web auditada conta com as seguintes tecnologias: "
+    "pt-br": "A página da web auditada conta com as seguintes tecnologias: ",
+    "es": "La página web auditada utiliza en las siguientes tecnologías: "
   },
   "tip": {
     "en": "Tip",
     "nl": "Tip",
-    "pt-br": "Dica"
+    "pt-br": "Dica",
+    "es": "Consejo"
+
   },
   "external_link": {
     "en": "external link",
     "nl": "externe link",
-    "pt-br": "link externo"
+    "pt-br": "link externo",
+    "es": "Link externo"
   },
   "base_uri": {
     "en": "https://www.w3.org/WAI/WCAG21/quickref/?versions=2.1",
     "nl": "https://www.w3.org/Translations/WCAG21-nl",
-    "pt-br": "https://www.w3c.br/traducoes/wcag/wcag21-pt-BR/"
+    "pt-br": "https://www.w3c.br/traducoes/wcag/wcag21-pt-BR/",
+    "es": "http://www.codexexempla.org/traducciones/pautas-accesibilidad-contenido-web-2.0.htm"
   }
 }
