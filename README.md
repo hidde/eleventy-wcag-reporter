@@ -3,7 +3,7 @@
 This repository lets you create WCAG EM Reports using [Eleventy](https://www.11ty.dev/). 
 
 * Write issues as Markdown files
-* Create reports in English or Dutch 
+* Create reports in English, Dutch, Brazilian Portuguese or Spanish
 * Automatically output a score card in the report 
 * Include your boilerplate easily, so that you can focus on describing issues
 
@@ -20,12 +20,12 @@ _This is a side project, it comes with no warranty._
 | Language             | Code    | Supports                     | Credits           | 
 |----------------------|---------|------------------------------|-------------------|
 | Brazilian Portuguese |  pt-br  | Report itself, WCAG 2.1      | @brunopulis       |
+| Latinamerican Spanish |  es  | Report itself, WCAG 2.1      | @danisaurio       |
 | Dutch                |  nl     | Report itself, WCAG 2.1      | @hidde            |
 | English              |  en     | Report itself, WCAG 2.1      | @hidde            |
 
 In progress: 
 
-* Spanish ([worked on in #8](https://github.com/hidde/eleventy-wcag-reporter/issues/8))
 * Finnish ([worked on in #7](https://github.com/hidde/eleventy-wcag-reporter/issues/7))
 
 Want to contribute a language? [Create an issue](https://github.com/hidde/eleventy-wcag-reporter/issues/new?assignees=&labels=i18n&template=add-language-support.md&title=Add+translation%3A+%5Blanguage%5D) (to indicate you'd like to take this on; the template has some instructions) and file a Pull Request.
