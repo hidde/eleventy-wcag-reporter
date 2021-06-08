@@ -17,6 +17,11 @@ const reports = fs.readdirSync(reportsFolder)
     return fs.existsSync(reportPath) && fs.lstatSync(reportPath).isDirectory()
   })
 
+const sanitizeNumber = (numberWithDots) => {
+  const numberString = numberWithDots.split('.').map(numb => numb = Number(numb) < 10 ? '0' + numb : numb).join('');
+  return Number(numberString);
+}
+
 module.exports = (function(eleventyConfig) {
   eleventyConfig.addFilter("sc_uri", scUri);
   eleventyConfig.addFilter("sc_name", scName);
@@ -35,17 +40,15 @@ module.exports = (function(eleventyConfig) {
   for (let i=0; i < reports.length; i++) {
     eleventyConfig.addCollection(reports[i], function (collectionApi) {
       return collectionApi
-        .getFilteredByGlob(`${reportsFolderRelative}/${reports[i]}/**/*.md`)
-        .filter(item => !(item.data.sc === "none") && !(item.data.sc === undefined))
-        .sort((a, b) => {
-          const arrA = a.data.sc.split('.');
-          const arrB = b.data.sc.split('.');
-          for (let i = 0; i < arrA.length; i++) {
-              if (Number(arrA[i]) < Number(arrB[i])) return -1;
-              if (Number(arrA[i]) > Number(arrB[i])) return 1;
-          }
-          return 0;
-        });
+      .getFilteredByGlob(`${reportsFolderRelative}/${reports[i]}/**/*.md`)
+      .filter(item => !(item.data.sc === "none") && !(item.data.sc === undefined))
+      .sort((a, b) => {
+        const numbA = sanitizeNumber(a.data.sc);
+        const numbB = sanitizeNumber(b.data.sc);
+        if (numbA < numbB) return -1;
+        if (numbA > numbB) return 1;
+        return 0;
+      });
     });
   }
 
