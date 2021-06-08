@@ -142,7 +142,7 @@
   "accessibility_support_explanation": {
     "en": "The audited website should work in at least the following browsers and assistive technologies: ",
     "nl": "De onderzochte website zou minimaal moeten kunnen worden gebruikt in de volgende browsers en hulptechnologieën:",
-    "es": "El sitio web auditado debe trabajar en al menos los siguientes navegadores y tecnologías de asistencia: "
+    "es": "El sitio web auditado debe en al menos los siguientes navegadores y tecnologías de asistencia: "
   },
   "technologies_explanation": {
     "en": "The audited web page relies on the following technologies: ",

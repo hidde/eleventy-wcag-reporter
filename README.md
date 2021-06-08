@@ -3,7 +3,7 @@
 This repository lets you create WCAG EM Reports using [Eleventy](https://www.11ty.dev/). 
 
 * Write issues as Markdown files
-* Create reports in English or Dutch 
+* Create reports in English, Dutch or Spanish 
 * Automatically output a score card in the report 
 
 Eleventy is a static site generator. In this project we use it to combine all Markdown files into one HTML file that is a report.
