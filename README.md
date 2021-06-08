@@ -21,8 +21,13 @@ _This is a side project, it comes with no warranty._
 | Brazilian Portuguese |  pt-br  | Report itself, WCAG 2.1      | @brunopulis       |
 | Dutch                |  nl     | Report itself, WCAG 2.1      | @hidde            |
 | English              |  en     | Report itself, WCAG 2.1      | @hidde            |
-| Spanish              |  tbd    | [worked on in #8](https://github.com/hidde/eleventy-wcag-reporter/issues/8) |  - |
-| Finnish              |  tbd    | [worked on in #7](https://github.com/hidde/eleventy-wcag-reporter/issues/7) |  - | 
+
+In progress: 
+
+* Spanish ([worked on in #8](https://github.com/hidde/eleventy-wcag-reporter/issues/8))
+* Finnish ([worked on in #7](https://github.com/hidde/eleventy-wcag-reporter/issues/7))
+
+Want to contribute a language? [Create a new issue from the language template](https://github.com/hidde/eleventy-wcag-reporter/issues/new?assignees=&labels=i18n&template=add-language-support.md&title=Add+translation%3A+%5Blanguage%5D) and file a Pull Request.
 
 
 ## Set up
