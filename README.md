@@ -42,7 +42,7 @@ Want to contribute a language? [Create an issue](https://github.com/hidde/eleven
 7. Customise the reports: add your own logo, colors, typography and content. There is [cipsum](https://cipsum.com/) everywhere.
 8. [Create a new report](#create-a-report)
 
-From now on, you'll onlly need to run that last step: `npm run dev` or `elevent --serve`.
+From now on, you'll onlly need to run that last step: `npm run dev` or `eleventy --serve`.
 
 ## Create a report
 
