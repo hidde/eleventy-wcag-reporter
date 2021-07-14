@@ -5,7 +5,7 @@
   "main": ".eleventy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "eleventy --serve",
+    "dev": "eleventy --serve --port=1337",
     "build": "eleventy",
     "create-pdf": "./create_report.sh",
     "add-report": "node add-report.js"
