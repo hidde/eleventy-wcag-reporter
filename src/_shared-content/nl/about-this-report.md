@@ -9,3 +9,8 @@ Bring to the table win-win survival strategies to ensure proactive domination. A
 ### Kleine letters
 
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+
+### WCAG overzicht
+
+- 1.1.1 mlkqsjdfmlk (Ok)
+- 1.2.1. mlksjfq (Niet Ok)
