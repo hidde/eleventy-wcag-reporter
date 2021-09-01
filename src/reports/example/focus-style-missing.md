@@ -22,7 +22,7 @@ Focus styles have been removed through the website's stylesheets:
 }
 ```
 
-This causes problems for people who use the webite without a mouse, as they will not be able to see where they are.
+This causes problems for people who use the website without a mouse, as they will not be able to see where they are.
 
 #### Solution
 
