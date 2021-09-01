@@ -11,7 +11,9 @@ Eleventy is a static site generator. In this project we use it to combine all Ma
 
 Some more context in: [Introducing an Eleventy starter project for WCAG reports](https://hiddedevries.nl/en/blog/2021-05-24-introducing-an-eleventy-starter-project-for-wcag-reports)
 
-_This is a side project, it comes with no warranty._
+Like this? 
+
+<a href='https://ko-fi.com/D1D1619P3' target='_blank'><img height='35' style='display:block;border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0017f6df-43fe-4164-bae1-08bf391164b3/deploy-status)](https://app.netlify.com/sites/eleventy-wcag-reporter/deploys)
 
