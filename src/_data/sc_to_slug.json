@@ -392,6 +392,398 @@
         "level": "AA"
       }
     },
+    "fi": {
+      "1.1.1": {
+        "id": "non-text-content",
+        "name": "Ei-tekstuaalinen sisältö",
+        "level": "A"
+      },
+      "1.2.1": {
+        "id": "audio-only-and-video-only-prerecorded",
+        "name": "Pelkkä audio tai pelkkä video (tallennettu)",
+        "level": "A"
+      },
+      "1.2.2": {
+        "id": "captions-prerecorded",
+        "name": "Tekstitys (tallennettu)",
+        "level": "A"
+      },
+      "1.2.3": {
+        "id": "audio-description-or-media-alternative-prerecorded",
+        "name": "Kuvailutulkkaus tai mediavastine (tallennettu)",
+        "level": "A"
+      },
+      "1.2.4": {
+        "id": "captions-live",
+        "name": "Tekstitys (suorissa lähetyksissä)",
+        "level": "AA"
+      },
+      "1.2.5": {
+        "id": "audio-description-prerecorded",
+        "name": "Kuvailutulkkaus (tallennettu)",
+        "level": "AA"
+      },
+      "1.2.6": {
+        "id": "sign-language-prerecorded",
+        "name": "Viittomakieli (tallennettu)",
+        "level": "AAA"
+      },
+      "1.2.7": {
+        "id": "extended-audio-description-prerecorded",
+        "name": "Pidennetty kuvailutulkkaus (tallennettu)",
+        "level": "AAA"
+      },
+      "1.2.8": {
+        "id": "media-alternative-prerecorded",
+        "name": "Mediavastine (tallennettu)",
+        "level": "AAA"
+      },
+      "1.2.9": {
+        "id": "audio-only-live",
+        "name": "Pelkkä audio (suorissa lähetyksissä)",
+        "level": "AAA"
+      },
+      "1.3.1": {
+        "id": "info-and-relationships",
+        "name": "Informaatio ja suhteet",
+        "level": "A"
+      },
+      "1.3.2": {
+        "id": "meaningful-sequence",
+        "name": "Merkitykseen vaikuttava järjestys",
+        "level": "A"
+      },
+      "1.3.3": {
+        "id": "sensory-characteristics",
+        "name": "Aistinvaraiset ominaispiirteet",
+        "level": "A"
+      },
+      "1.3.4": {
+        "id": "orientation",
+        "name": "Asento",
+        "level": "AA"
+      },
+      "1.3.5": {
+        "id": "identify-input-purpose",
+        "name": "Määrittele syötteen tarkoitus",
+        "level": "AA"
+      },
+      "1.3.6": {
+        "id": "identify-purpose",
+        "name": "Määrittele tarkoitus",
+        "level": "AAA"
+      },
+      "1.4.1": {
+        "id": "use-of-color",
+        "name": "Värien käyttö",
+        "level": "A"
+      },
+      "1.4.2": {
+        "id": "audio-control",
+        "name": "Audion kontrollointi",
+        "level": "A"
+      },
+      "1.4.3": {
+        "id": "contrast-minimum",
+        "name": "Kontrasti (minimi)",
+        "level": "AA"
+      },
+      "1.4.4": {
+        "id": "resize-text",
+        "name": "Tekstin koon muuttaminen",
+        "level": "AA"
+      },
+      "1.4.5": {
+        "id": "images-of-text",
+        "name": "Tekstiä esittävät kuvat",
+        "level": "AA"
+      },
+      "1.4.6": {
+        "id": "contrast-enhanced",
+        "name": "Kontrasti (parannettu)",
+        "level": "AAA"
+      },
+      "1.4.7": {
+        "id": "low-or-no-background-audio",
+        "name": "Hiljainen taustaääni tai ei taustaääntä",
+        "level": "AAA"
+      },
+      "1.4.8": {
+        "id": "visual-presentation",
+        "name": "Visuaalinen esitystapa",
+        "level": "AAA"
+      },
+      "1.4.9": {
+        "id": "images-of-text-no-exception",
+        "name": "Tekstiä esittävät kuvat (ei poikkeusta)",
+        "level": "AAA"
+      },
+      "1.4.10": {
+        "id": "reflow",
+        "name": "Responsiivisuus",
+        "level": "AA"
+      },
+      "1.4.11": {
+        "id": "non-text-contrast",
+        "name": "Ei-tekstimuotoisen sisällön kontrasti",
+        "level": "AA"
+      },
+      "1.4.12": {
+        "id": "text-spacing",
+        "name": "Tekstin välistys",
+        "level": "AA"
+      },
+      "1.4.13": {
+        "id": "content-on-hover-or-focus",
+        "name": "Sisältö osoitettaessa tai kohdistettaessa",
+        "level": "AA"
+      },
+      "2.1.1": {
+        "id": "keyboard",
+        "name": "Näppäimistö",
+        "level": "A"
+      },
+      "2.1.2": {
+        "id": "no-keyboard-trap",
+        "name": "Ei näppäimistöansaa",
+        "level": "A"
+      },
+      "2.1.3": {
+        "id": "keyboard-no-exception",
+        "name": "Näppäimistö (ei poikkeuksia)",
+        "level": "AAA"
+      },
+      "2.1.4": {
+        "id": "character-key-shortcuts",
+        "name": "Yhden merkin pikanäppäimet",
+        "level": "A"
+      },
+      "2.2.1": {
+        "id": "timing-adjustable",
+        "name": "Säädettävä ajoitus",
+        "level": "A"
+      },
+      "2.2.2": {
+        "id": "pause-stop-hide",
+        "name": "Tauota, pysäytä, piilota",
+        "level": "A"
+      },
+      "2.2.3": {
+        "id": "no-timing",
+        "name": "Ei ajoitusta",
+        "level": "AAA"
+      },
+      "2.2.4": {
+        "id": "interruptions",
+        "name": "Keskeytykset",
+        "level": "AAA"
+      },
+      "2.2.5": {
+        "id": "re-authenticating",
+        "name": "Uudelleentunnistautuminen",
+        "level": "AAA"
+      },
+      "2.2.6": {
+        "id": "timeouts",
+        "name": "Aikakatkaisut",
+        "level": "AAA"
+      },
+      "2.3.1": {
+        "id": "three-flashes-or-below-threshold",
+        "name": "Kolme välähdystä tai alle raja-arvon",
+        "level": "A"
+      },
+      "2.3.2": {
+        "id": "three-flashes",
+        "name": "Kolme välähdystä",
+        "level": "AAA"
+      },
+      "2.3.3": {
+        "id": "animation-from-interactions",
+        "name": "Animaatio vuorovaikutuksen yhteydessä",
+        "level": "AAA"
+      },
+      "2.4.1": {
+        "id": "bypass-blocks",
+        "name": "Ohita lohkot",
+        "level": "A"
+      },
+      "2.4.2": {
+        "id": "page-titled",
+        "name": "Sivuotsikot",
+        "level": "A"
+      },
+      "2.4.3": {
+        "id": "focus-order",
+        "name": "Kohdistusjärjestys",
+        "level": "A"
+      },
+      "2.4.4": {
+        "id": "link-purpose-in-context",
+        "name": "Linkin tarkoitus (kontekstissa)",
+        "level": "A"
+      },
+      "2.4.5": {
+        "id": "multiple-ways",
+        "name": "Useita tapoja",
+        "level": "AA"
+      },
+      "2.4.6": {
+        "id": "headings-and-labels",
+        "name": "Otsikot ja nimilaput",
+        "level": "AA"
+      },
+      "2.4.7": {
+        "id": "focus-visible",
+        "name": "Näkyvä kohdistus",
+        "level": "AA"
+      },
+      "2.4.8": {
+        "id": "location",
+        "name": "Sijainti",
+        "level": "AAA"
+      },
+      "2.4.9": {
+        "id": "link-purpose-link-only",
+        "name": "Linkin tarkoitus (vain linkistä)",
+        "level": "AAA"
+      },
+      "2.4.10": {
+        "id": "section-headings",
+        "name": "Osioiden otsikot",
+        "level": "AAA"
+      },
+      "2.5.1": {
+        "id": "pointer-gestures",
+        "name": "Osoitineleet",
+        "level": "A"
+      },
+      "2.5.2": {
+        "id": "pointer-cancellation",
+        "name": "Osoitinlaitteella tehdyn valinnan peruuttaminen",
+        "level": "A"
+      },
+      "2.5.3": {
+        "id": "label-in-name",
+        "name": "Nimilappu nimessä",
+        "level": "A"
+      },
+      "2.5.4": {
+        "id": "motion-actuation",
+        "name": "Käyttö liikkeen avulla",
+        "level": "A"
+      },
+      "2.5.5": {
+        "id": "target-size",
+        "name": "Kohteen koko",
+        "level": "AAA"
+      },
+      "2.5.6": {
+        "id": "concurrent-input-mechanisms",
+        "name": "Rinnakkaiset syötemekanismit",
+        "level": "AAA"
+      },
+      "3.1.1": {
+        "id": "language-of-page",
+        "name": "Sivun kieli",
+        "level": "A"
+      },
+      "3.1.2": {
+        "id": "language-of-parts",
+        "name": "Osien kieli",
+        "level": "AA"
+      },
+      "3.1.3": {
+        "id": "unusual-words",
+        "name": "Epätavalliset sanat",
+        "level": "AAA"
+      },
+      "3.1.4": {
+        "id": "abbreviations",
+        "name": "Lyhenteet",
+        "level": "AAA"
+      },
+      "3.1.5": {
+        "id": "reading-level",
+        "name": "Tekstin vaikeustaso",
+        "level": "AAA"
+      },
+      "3.1.6": {
+        "id": "pronunciation",
+        "name": "Ääntämys",
+        "level": "AAA"
+      },
+      "3.2.1": {
+        "id": "on-focus",
+        "name": "Kohdistaminen",
+        "level": "A"
+      },
+      "3.2.2": {
+        "id": "on-input",
+        "name": "Syöte",
+        "level": "A"
+      },
+      "3.2.3": {
+        "id": "consistent-navigation",
+        "name": "Johdonmukainen navigointi",
+        "level": "AA"
+      },
+      "3.2.4": {
+        "id": "consistent-identification",
+        "name": "Johdonmukainen merkitseminen",
+        "level": "AA"
+      },
+      "3.2.5": {
+        "id": "change-on-request",
+        "name": "Muutos pyydettäessä",
+        "level": "AAA"
+      },
+      "3.3.1": {
+        "id": "error-identification",
+        "name": "Virheen tunnistaminen",
+        "level": "A"
+      },
+      "3.3.2": {
+        "id": "labels-or-instructions",
+        "name": "Nimilaput tai ohjeet",
+        "level": "A"
+      },
+      "3.3.3": {
+        "id": "error-suggestion",
+        "name": "Virheen korjausehdotus",
+        "level": "AA"
+      },
+      "3.3.4": {
+        "id": "error-prevention-legal-financial-data",
+        "name": "Virheiden ennaltaehkäisy (oikeudellinen, taloudellinen, data)",
+        "level": "AA"
+      },
+      "3.3.5": {
+        "id": "help",
+        "name": "Ohjeet",
+        "level": "AAA"
+      },
+      "3.3.6": {
+        "id": "error-prevention-all",
+        "name": "Virheiden ennaltaehkäisy (kaikki)",
+        "level": "AAA"
+      },
+      "4.1.1": {
+        "id": "parsing",
+        "name": "Jäsentäminen",
+        "level": "A"
+      },
+      "4.1.2": {
+        "id": "name-role-value",
+        "name": "Nimi, rooli, arvo",
+        "level": "A"
+      },
+      "4.1.3": {
+        "id": "status-messages",
+        "name": "Tilasta kertovat viestit",
+        "level": "AA"
+      }
+    },
     "nl": {
       "1.1.1": {
         "id": "niet-tekstuele-content",
