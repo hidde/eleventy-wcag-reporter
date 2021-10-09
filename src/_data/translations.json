@@ -223,6 +223,14 @@
     "es": "Consejo",
     "de": "Tipp"
   },
+  "tips": {
+    "en": "Tips",
+    "nl": "Tip",
+    "pt-br": "Dica",
+    "es": "Consejo",
+    "fi": "Vinkit",
+    "de": "Tipp"
+  },
   "external_link": {
     "en": "external link",
     "nl": "externe link",
