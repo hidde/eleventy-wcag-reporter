@@ -4,7 +4,7 @@
     "nl": "Rapport: toegankelijkheid van ",
     "pt-br": "Relatório de conformidade de acessibilidade para ",
     "es": "Informe de accesibilidad para ",
-    "fi": "Saavutettavuusraportti vastaanottajalle (VAATII MIETTIMISTÄ)",
+    "fi": "Saavutettavuusraportti: ",
     "de": "Barrierefreiheits Konformitäts-Bericht für "
   },
   "evaluated_by": {
@@ -84,7 +84,7 @@
     "nl": "Niet in scope",
     "pt-br": "Fora do escopo",
     "es": "Fuera de alcance",
-    "fi": "Raportin ulkopuolella",
+    "fi": "Raporttiin kuulumattomat",
     "de": "Nicht im Anwendungsbereich enthalten"
   },
   "issue": {
@@ -92,7 +92,7 @@
     "nl": "Bevinding",
     "pt-br": "Problema",
     "es": "Problema",
-    "fi": "",
+    "fi": "Ongelma",
     "de": "Problem"
   },
   "issues": {
@@ -100,7 +100,7 @@
     "nl": "Bevindingen",
     "pt-br": "Problemas",
     "es": "Problemas",
-    "fi": "Ongelma",
+    "fi": "Ongelmakohdat",
     "de": "Probleme"
   },
   "wcag_criterion": {
@@ -140,7 +140,7 @@
     "nl": "Toelichting bij dit rapport",
     "pt-br": "Sobre esse relatório",
     "es": "Acerca de este informe",
-    "fi": "Tietoja selvityksestä",
+    "fi": "Tietoja raportista",
     "de": "Über diesen Report"
   },
   "principle": {
@@ -220,7 +220,7 @@
     "nl": "Ondersteuning",
     "pt-br": "Suporte de acessibilidade",
     "es": "Soporte de accesibilidad",
-    "fi": "Saavutettavuuden tuki (VAATII MIETTIMISTÄ)",
+    "fi": "Tuki",
     "de": "Unterstützung von Barrierefreiheit"
   },
   "technologies_used": {
@@ -236,7 +236,7 @@
     "nl": "De onderzochte website zou minimaal moeten kunnen worden gebruikt in de volgende browsers en hulptechnologieën:",
     "pt-br": "O site auditado deve funcionar pelo menos nos seguintes navegadores e tecnologias assistivas: ",
     "es": "El sitio web auditado debe trabajar en al menos los siguientes navegadores y tecnologías de asistencia: ",
-    "fi": "Auditoidun sivuston pitäisi toimia vähintään seuraavilla selaimilla ja avustavilla teknologioilla: ",
+    "fi": "Auditoidun sivuston tulisi toimia seuraavilla selaimilla ja avustavilla teknologioilla: ",
     "de": "Die analysierte Webseite sollte zumindest die zugängliche Nutzung mit den folgenden Internetzugangsprogrammen (Browser) und assistiven Technologien ermöglichen: "
   },
   "technologies_explanation": {
@@ -252,7 +252,7 @@
     "nl": "Tip",
     "pt-br": "Dica",
     "es": "Consejo",
-    "fi": "",
+    "fi": "Vinkki",
     "de": "Tipp"
   },
   "external_link": {
