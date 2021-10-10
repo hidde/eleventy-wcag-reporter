@@ -84,7 +84,7 @@
     "nl": "Niet in scope",
     "pt-br": "Fora do escopo",
     "es": "Fuera de alcance",
-    "fi": "Raporttiin kuulumattomat",
+    "fi": "Auditointiin kuulumattomat",
     "de": "Nicht im Anwendungsbereich enthalten"
   },
   "issue": {
@@ -116,7 +116,7 @@
     "nl": "Ernst",
     "pt-br": "Severidade",
     "es": "Severidad",
-    "fi": "Vakavuus",
+    "fi": "Kriittisyys",
     "de": "Gewichtung"
   },
   "difficulty": {
