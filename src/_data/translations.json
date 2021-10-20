@@ -255,6 +255,14 @@
     "fi": "Vinkki",
     "de": "Tipp"
   },
+  "tips": {
+    "en": "Tips",
+    "nl": "Tips",
+    "pt-br": "Dicas",
+    "es": "Sugerencias",
+    "fi": "Vinkit",
+    "de": "Tipps"
+  },
   "external_link": {
     "en": "external link",
     "nl": "externe link",

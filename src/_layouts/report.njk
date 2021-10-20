@@ -148,7 +148,7 @@ layout: base
 
 {% if tipsList.length %}
 <section id="tips">
-  <h2>Tips</h2>
+  <h2>{{ translations.tips[language] }}</h2>
   <ol>
   {% for issue in tipsList %}
     {% if issue.fileSlug !== page.fileSlug %}
