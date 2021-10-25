@@ -630,7 +630,18 @@
       },
       "4.1.1": {
         "id": "parsen",
-        "name": "Parsen"
+        "name": "Parsen",
+        "level": "A"
+      },
+      "4.1.2": {
+        "id": "naam-rol-waarde",
+        "name": "Naam, rol, waarde",
+        "level": "A"
+      },
+      "4.1.3": {
+        "id": "statusberichten",
+        "name": "Statusberichten",
+        "level": "AA"
       }
     },
     "pt-br": {
