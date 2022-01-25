@@ -6,8 +6,9 @@ function scTable(allIssues, language, targetLevel, targetWcagVersion) {
   if (!allIssues || !language || !targetLevel) {
     return ``
   }
-  
-  const totals = totalsperLevel[targetWcagVersion][targetLevel];
+ 
+  // use string representation of WCAG version to avoid unwanted conversion from e.g. 2.0 to index 2
+  const totals = totalsperLevel[targetWcagVersion.toString()][targetLevel];
 
   let perceivable = allIssues.filter(issue => issue.data.sc && issue.data.sc.startsWith("1.")).reduce(countSCOnce, []);
   let operable = allIssues.filter(issue => issue.data.sc && issue.data.sc.startsWith("2.")).reduce(countSCOnce, []);
