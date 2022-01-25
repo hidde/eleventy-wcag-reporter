@@ -21,5 +21,28 @@
       "understandable": 17,
       "robust": 3
     }
+  },
+  "2.0": {
+    "A": {
+      "all": 25,
+      "perceivable": 9,
+      "operable": 9,
+      "understandable": 5,
+      "robust": 2
+    },
+    "AA": {
+      "all": 43,
+      "perceivable": 14,
+      "operable": 17,
+      "understandable": 10,
+      "robust": 2
+    },
+    "AAA": {
+      "all": 73,
+      "perceivable": 28,
+      "operable": 25,
+      "understandable": 17,
+      "robust": 3
+    }
   }
 }
