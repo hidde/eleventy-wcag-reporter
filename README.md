@@ -23,12 +23,12 @@ Like this?
 
 | Language             | Code    | Supports                     | Credits           | 
 |----------------------|---------|------------------------------|-------------------|
-| Brazilian Portuguese |  pt-br  | Report itself, WCAG 2.1      | @brunopulis       |
-| Dutch                |  nl     | Report itself, WCAG 2.1      | @hidde            |
-| English              |  en     | Report itself, WCAG 2.1      | @hidde            |
-| Finnish              | fi      | Report itself, WCAG 2.1      | @eevajonnapanula  |
-| German               |  de     | Report itself, WCAG 2.1      | @mfranzke         |
-| Latinamerican Spanish |  es  | Report itself, WCAG 2.1      | @danisaurio       |
+| Brazilian Portuguese |  pt-br  | Report itself, WCAG 2.0/1      | @brunopulis       |
+| Dutch                |  nl     | Report itself, WCAG 2.0/1      | @hidde            |
+| English              |  en     | Report itself, WCAG 2.0/1      | @hidde            |
+| Finnish              | fi      | Report itself, WCAG 2.0/1      | @eevajonnapanula  |
+| German               |  de     | Report itself, WCAG 2.0/1      | @mfranzke         |
+| Latinamerican Spanish |  es  | Report itself, WCAG 2.0/1      | @danisaurio       |
 
 Want to contribute a language? [Create an issue](https://github.com/hidde/eleventy-wcag-reporter/issues/new?assignees=&labels=i18n&template=add-language-support.md&title=Add+translation%3A+%5Blanguage%5D) (to indicate you'd like to take this on; the template has some instructions) and file a Pull Request.
 
@@ -114,7 +114,7 @@ For instance:
 where: 
 
 * `language` is the page's language (required) 
-* `targetWcagVersion` is the WCAG version you're evaluating against, for example `2.1` (required)
+* `targetWcagVersion` is the WCAG version you're evaluating against, for example `2.1` or `"2.0"` (required)
 
 
 displays: https://www.w3.org/WAI/WCAG21/quickref/?versions=2.1&showtechniques=248#non-text-content
