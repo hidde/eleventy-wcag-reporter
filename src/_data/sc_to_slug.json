@@ -1,3 +1,6 @@
+
+
+
 {
   "2.1": {
     "en": {
@@ -2211,7 +2214,400 @@
         "name": "Statusmeldungen",
         "level": "AA"
       }
-    }
+    },
+    "it": {
+      "1.1.1": {
+          "id": "non-text-content",
+          "name": "Contenuti non testuali",
+          "level": "(Livello A"
+      },
+      "1.2.1": {
+          "id": "audio-only-and-video-only-prerecorded",
+          "name": "Solo audio e solo video (preregistrati)",
+          "level": "(Livello A"
+      },
+      "1.2.2": {
+          "id": "captions-prerecorded",
+          "name": "Sottotitoli (preregistrati)",
+          "level": "(Livello A"
+      },
+      "1.2.3": {
+          "id": "audio-description-or-media-alternative-prerecorded",
+          "name": "Audiodescrizione o tipo di media\n            alternativo (preregistrato)",
+          "level": "(Livello A"
+      },
+      "1.2.4": {
+          "id": "captions-live",
+          "name": "Sottotitoli (in tempo reale)",
+          "level": "(Livello AA"
+      },
+      "1.2.5": {
+          "id": "audio-description-prerecorded",
+          "name": "Audiodescrizione (preregistrata)",
+          "level": "(Livello AA"
+      },
+      "1.2.6": {
+          "id": "sign-language-prerecorded",
+          "name": "Lingua dei segni (preregistrato)",
+          "level": "(Livello AAA"
+      },
+      "1.2.7": {
+          "id": "extended-audio-description-prerecorded",
+          "name": "Audiodescrizione estesa (preregistrata)",
+          "level": "(Livello AAA"
+      },
+      "1.2.8": {
+          "id": "media-alternative-prerecorded",
+          "name": "Tipo di media alternativo\n            (preregistrato)",
+          "level": "(Livello AAA"
+      },
+      "1.2.9": {
+          "id": "audio-only-live",
+          "name": "Solo audio (in tempo reale)",
+          "level": "(Livello AAA"
+      },
+      "1.3.1": {
+          "id": "info-and-relationships",
+          "name": "Informazioni e correlazioni",
+          "level": "(Livello A"
+      },
+      "1.3.2": {
+          "id": "meaningful-sequence",
+          "name": "Sequenza significativa",
+          "level": "(Livello A"
+      },
+      "1.3.3": {
+          "id": "sensory-characteristics",
+          "name": "Caratteristiche sensoriali",
+          "level": "(Livello A"
+      },
+      "1.3.4": {
+          "id": "orientation",
+          "name": "Orientamento",
+          "level": "(Livello AA"
+      },
+      "1.3.5": {
+          "id": "identify-input-purpose",
+          "name": "Identificare lo scopo degli input",
+          "level": "(Livello AA"
+      },
+      "1.3.6": {
+          "id": "identify-purpose",
+          "name": "Identificare lo scopo",
+          "level": "(Livello AAA"
+      },
+      "1.4.1": {
+          "id": "use-of-color",
+          "name": "Uso del colore",
+          "level": "(Livello A"
+      },
+      "1.4.2": {
+          "id": "audio-control",
+          "name": "Controllo del sonoro",
+          "level": "(Livello A"
+      },
+      "1.4.3": {
+          "id": "contrast-minimum",
+          "name": "Contrasto (minimo)",
+          "level": "(Livello AA"
+      },
+      "1.4.4": {
+          "id": "resize-text",
+          "name": "Ridimensionamento del testo",
+          "level": "(Livello AA"
+      },
+      "1.4.5": {
+          "id": "images-of-text",
+          "name": "Immagini di testo",
+          "level": "(Livello AA"
+      },
+      "1.4.6": {
+          "id": "contrast-enhanced",
+          "name": "Contrasto (avanzato)",
+          "level": "(Livello AAA"
+      },
+      "1.4.7": {
+          "id": "low-or-no-background-audio",
+          "name": "Sottofondo sonoro basso o non presente",
+          "level": "(Livello AAA"
+      },
+      "1.4.8": {
+          "id": "visual-presentation",
+          "name": "Presentazione visiva",
+          "level": "(Livello AAA"
+      },
+      "1.4.9": {
+          "id": "images-of-text-no-exception",
+          "name": "Immagini di testo (senza eccezioni)",
+          "level": "(Livello AAA"
+      },
+      "1.4.10": {
+          "id": "reflow",
+          "name": "Ricalcolo del flusso",
+          "level": "(Livello AA"
+      },
+      "1.4.11": {
+          "id": "non-text-contrast",
+          "name": "Contrasto in contenuti non testuali",
+          "level": "(Livello AA"
+      },
+      "1.4.12": {
+          "id": "text-spacing",
+          "name": "Spaziatura del testo",
+          "level": "(Livello AA"
+      },
+      "1.4.13": {
+          "id": "content-on-hover-or-focus",
+          "name": "Contenuto con Hover o Focus",
+          "level": "(Livello AA"
+      },
+      "2.1.1": {
+          "id": "keyboard",
+          "name": "Tastiera",
+          "level": "(Livello A"
+      },
+      "2.1.2": {
+          "id": "no-keyboard-trap",
+          "name": "Nessun impedimento all'uso della tastiera",
+          "level": "(Livello A"
+      },
+      "2.1.3": {
+          "id": "keyboard-no-exception",
+          "name": "Tastiera (nessuna eccezione)",
+          "level": "(Livello AAA"
+      },
+      "2.1.4": {
+          "id": "character-key-shortcuts",
+          "name": "Tasti di scelta rapida",
+          "level": "(Livello A"
+      },
+      "2.2.1": {
+          "id": "timing-adjustable",
+          "name": "Regolazione tempi di esecuzione",
+          "level": "(Livello A"
+      },
+      "2.2.2": {
+          "id": "pause-stop-hide",
+          "name": "Pausa, stop, nascondi",
+          "level": "(Livello A"
+      },
+      "2.2.3": {
+          "id": "no-timing",
+          "name": "Nessun tempo di esecuzione",
+          "level": "(Livello AAA"
+      },
+      "2.2.4": {
+          "id": "interruptions",
+          "name": "Interruzioni",
+          "level": "(Livello AAA"
+      },
+      "2.2.5": {
+          "id": "re-authenticating",
+          "name": "Riautenticazione",
+          "level": "(Livello AAA"
+      },
+      "2.2.6": {
+          "id": "timeouts",
+          "name": "Termine del tempo",
+          "level": "(Livello AAA"
+      },
+      "2.3.1": {
+          "id": "three-flashes-or-below-threshold",
+          "name": "Tre lampeggiamenti o inferiore alla\n            soglia",
+          "level": "(Livello A"
+      },
+      "2.3.2": {
+          "id": "three-flashes",
+          "name": "Tre lampeggiamenti",
+          "level": "(Livello AAA"
+      },
+      "2.3.3": {
+          "id": "animation-from-interactions",
+          "name": "Animazione da interazioni",
+          "level": "(Livello AAA"
+      },
+      "2.4.1": {
+          "id": "bypass-blocks",
+          "name": "Salto di blocchi",
+          "level": "(Livello A"
+      },
+      "2.4.2": {
+          "id": "page-titled",
+          "name": "Titolazione della pagina",
+          "level": "(Livello A"
+      },
+      "2.4.3": {
+          "id": "focus-order",
+          "name": "Ordine del focus",
+          "level": "(Livello A"
+      },
+      "2.4.4": {
+          "id": "link-purpose-in-context",
+          "name": "Scopo del collegamento (nel contesto)",
+          "level": "(Livello A"
+      },
+      "2.4.5": {
+          "id": "multiple-ways",
+          "name": "Differenti modalità",
+          "level": "(Livello AA"
+      },
+      "2.4.6": {
+          "id": "headings-and-labels",
+          "name": "Intestazioni ed etichette",
+          "level": "(Livello AA"
+      },
+      "2.4.7": {
+          "id": "focus-visible",
+          "name": "Focus visibile",
+          "level": "(Livello AA"
+      },
+      "2.4.8": {
+          "id": "location",
+          "name": "Posizione",
+          "level": "(Livello AAA"
+      },
+      "2.4.9": {
+          "id": "link-purpose-link-only",
+          "name": "Scopo del collegamento (solo collegamento)",
+          "level": "(Livello AAA"
+      },
+      "2.4.10": {
+          "id": "section-headings",
+          "name": "Intestazioni di sezione",
+          "level": "(Livello AAA"
+      },
+      "2.5.1": {
+          "id": "pointer-gestures",
+          "name": "Movimenti del puntatore",
+          "level": "(Livello A"
+      },
+      "2.5.2": {
+          "id": "pointer-cancellation",
+          "name": "Cancellazione delle azioni del puntatore",
+          "level": "(Livello A"
+      },
+      "2.5.3": {
+          "id": "label-in-name",
+          "name": "Etichetta nel nome",
+          "level": "(Livello A"
+      },
+      "2.5.4": {
+          "id": "motion-actuation",
+          "name": "Azionamento da movimento",
+          "level": "(Livello A"
+      },
+      "2.5.5": {
+          "id": "target-size",
+          "name": "Dimensione dell'obiettivo",
+          "level": "(Livello AAA"
+      },
+      "2.5.6": {
+          "id": "concurrent-input-mechanisms",
+          "name": "Meccanismi di input simultanei",
+          "level": "(Livello AAA"
+      },
+      "3.1.1": {
+          "id": "language-of-page",
+          "name": "Lingua della pagina",
+          "level": "(Livello A"
+      },
+      "3.1.2": {
+          "id": "language-of-parts",
+          "name": "Parti in lingua",
+          "level": "(Livello AA"
+      },
+      "3.1.3": {
+          "id": "unusual-words",
+          "name": "Parole inusuali",
+          "level": "(Livello AAA"
+      },
+      "3.1.4": {
+          "id": "abbreviations",
+          "name": "Abbreviazioni",
+          "level": "(Livello AAA"
+      },
+      "3.1.5": {
+          "id": "reading-level",
+          "name": "Livello di lettura",
+          "level": "(Livello AAA"
+      },
+      "3.1.6": {
+          "id": "pronunciation",
+          "name": "Pronuncia",
+          "level": "(Livello AAA"
+      },
+      "3.2.1": {
+          "id": "on-focus",
+          "name": "Al focus",
+          "level": "(Livello A"
+      },
+      "3.2.2": {
+          "id": "on-input",
+          "name": "All'input",
+          "level": "(Livello A"
+      },
+      "3.2.3": {
+          "id": "consistent-navigation",
+          "name": "Navigazione coerente",
+          "level": "(Livello AA"
+      },
+      "3.2.4": {
+          "id": "consistent-identification",
+          "name": "Identificazione coerente",
+          "level": "(Livello AA"
+      },
+      "3.2.5": {
+          "id": "change-on-request",
+          "name": "Cambiamenti su richiesta",
+          "level": "(Livello AAA"
+      },
+      "3.3.1": {
+          "id": "error-identification",
+          "name": "Identificazione di errori",
+          "level": "(Livello A"
+      },
+      "3.3.2": {
+          "id": "labels-or-instructions",
+          "name": "Etichette o istruzioni",
+          "level": "(Livello A"
+      },
+      "3.3.3": {
+          "id": "error-suggestion",
+          "name": "Suggerimenti per gli errori",
+          "level": "(Livello AA"
+      },
+      "3.3.4": {
+          "id": "error-prevention-legal-financial-data",
+          "name": "Prevenzione degli errori (legali,\n            finanziari, dati)",
+          "level": "(Livello AA"
+      },
+      "3.3.5": {
+          "id": "help",
+          "name": "Aiuto",
+          "level": "(Livello AAA"
+      },
+      "3.3.6": {
+          "id": "error-prevention-all",
+          "name": "Prevenzione degli errori (tutti)",
+          "level": "(Livello AAA"
+      },
+      "4.1.1": {
+          "id": "parsing",
+          "name": "Analisi sintattica (parsing)",
+          "level": "(Livello A"
+      },
+      "4.1.2": {
+          "id": "name-role-value",
+          "name": "Nome, ruolo, valore",
+          "level": "(Livello A"
+      },
+      "4.1.3": {
+          "id": "status-messages",
+          "name": "Messaggi di stato",
+          "level": "(Livello AA"
+      }
+  }
+
   },
   "2.0": {
     "en": {
