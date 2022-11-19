@@ -5,7 +5,8 @@
     "pt-br": "Relatório de conformidade de acessibilidade para ",
     "es": "Informe de accesibilidad para ",
     "fi": "Saavutettavuusraportti: ",
-    "de": "Barrierefreiheits Konformitäts-Bericht für "
+    "de": "Barrierefreiheits Konformitäts-Bericht für ",
+    "it": "Report di conformità dell'accessibilità "
   },
   "evaluated_by": {
     "en": "Evaluated by",
@@ -13,7 +14,8 @@
     "pt-br": "Avaliado por",
     "es": "Evaluado por",
     "fi": "Arvioija",
-    "de": "Evaluiert von"
+    "de": "Evaluiert von",
+    "it": "Valutato da"
   },
   "commissioned_by": {
     "en": "Commissioned by",
@@ -21,7 +23,8 @@
     "pt-br": "Comissionado por",
     "es": "Solicitado por",
     "fi": "Tilaaja",
-    "de": "Beauftragt von"
+    "de": "Beauftragt von",
+    "it": "Commissionato da"
   },
   "target": {
     "en": "Target",
@@ -29,7 +32,8 @@
     "pt-br": "Alvo",
     "es": "Objetivo",
     "fi": "Tavoitetaso",
-    "de": "Grundlage"
+    "de": "Grundlage",
+    "it": "Obiettivo"
   },
   "date": {
     "en": "Date",
@@ -37,7 +41,8 @@
     "pt-br": "Data",
     "es": "Fecha",
     "fi": "Päivämäärä",
-    "de": "Datum"
+    "de": "Datum",
+    "it": "Data"
   },
   "special_requirements": {
     "en": "Special requirements",
@@ -45,7 +50,8 @@
     "pt-br": "Requisitos especiais",
     "es": "Requerimientos especiales",
     "fi": "Erityisvaatimukset",
-    "de": "Besondere Anforderungen"
+    "de": "Besondere Anforderungen",
+    "it": "Requisiti particolari"
   },
   "scope": {
     "en": "Scope",
@@ -53,7 +59,8 @@
     "pt-br": "Escopo",
     "es": "Alcance",
     "fi": "Laajuus",
-    "de": "Anwendungsbereich"
+    "de": "Anwendungsbereich",
+    "it": "Scopo"
   },
   "scope_items": {
     "en": "Pages",
@@ -61,7 +68,8 @@
     "pt-br": "Páginas",
     "es": "Páginas",
     "fi": "Sivuja",
-    "de": "Seiten"
+    "de": "Seiten",
+    "it": "Pagine"
   },
   "sample": {
     "en": "Sample",
@@ -69,7 +77,8 @@
     "pt-br": "Amostra",
     "es": "Muestra",
     "fi": "Otos",
-    "de": "Beispiel"
+    "de": "Beispiel",
+    "it": "Campione"
   },
   "representative_sample": {
     "en": "Representative sample",
@@ -77,7 +86,8 @@
     "pt-br": "Para este estudo, as seguintes páginas foram utilizadas como uma amostra representativa do site pesquisado:",
     "es": "Muestra representativa",
     "fi": "Edustava otos",
-    "de": "Repräsentatives Beispiel"
+    "de": "Repräsentatives Beispiel",
+    "it": "Pagine testate"
   },
   "not_in_scope": {
     "en": "Not in scope",
@@ -85,7 +95,8 @@
     "pt-br": "Fora do escopo",
     "es": "Fuera de alcance",
     "fi": "Auditointiin kuulumattomat",
-    "de": "Nicht im Anwendungsbereich enthalten"
+    "de": "Nicht im Anwendungsbereich enthalten",
+    "it": "Non in scopo"    
   },
   "issue": {
     "en": "Issue",
@@ -93,7 +104,8 @@
     "pt-br": "Problema",
     "es": "Problema",
     "fi": "Ongelma",
-    "de": "Problem"
+    "de": "Problem",
+    "it": "Problema"
   },
   "issues": {
     "en": "Issues",
@@ -101,7 +113,8 @@
     "pt-br": "Problemas",
     "es": "Problemas",
     "fi": "Ongelmakohdat",
-    "de": "Probleme"
+    "de": "Probleme",
+    "it": "Problemi"
   },
   "wcag_criterion": {
     "en": "WCAG criterion",
@@ -109,7 +122,8 @@
     "pt-br": "Critério WCAG",
     "es": "Criterio WCAG",
     "fi": "WCAG-kriteeri",
-    "de": "WCAG Kriterium"
+    "de": "WCAG Kriterium",
+    "it": "Criterio WCAG"    
   },
   "severity": {
     "en": "Severity",
@@ -117,7 +131,8 @@
     "pt-br": "Severidade",
     "es": "Severidad",
     "fi": "Kriittisyys",
-    "de": "Gewichtung"
+    "de": "Gewichtung",
+    "it": "Gravità"
   },
   "difficulty": {
     "en": "Difficulty",
@@ -125,7 +140,8 @@
     "pt-br": "Dificuldade",
     "es": "Complejidad",
     "fi": "Vaikeus",
-    "de": "Schwierigkeit"
+    "de": "Schwierigkeit",
+    "it": "Difficoltà"
   },
   "executive_summary": {
     "en": "Executive summary",
@@ -133,7 +149,8 @@
     "pt-br": "Sumário executivo",
     "es": "Resumen ejecutivo",
     "fi": "Yhteenveto",
-    "de": "Kurzfassung"
+    "de": "Kurzfassung",
+    "it": "In sintesi"
   },
   "about_this_report": {
     "en": "About this report",
@@ -141,7 +158,8 @@
     "pt-br": "Sobre esse relatório",
     "es": "Acerca de este informe",
     "fi": "Tietoja raportista",
-    "de": "Über diesen Report"
+    "de": "Über diesen Report",
+    "it": "Su questo report"
   },
   "principle": {
     "en": "Principle",
@@ -149,7 +167,8 @@
     "pt-br": "Princípio",
     "es": "Principio",
     "fi": "Periaate",
-    "de": "Prinzip"
+    "de": "Prinzip",
+    "it": "Criterio"
   },
   "perceivable": {
     "en": "Perceivable",
@@ -157,7 +176,8 @@
     "pt-br": "Perceptível",
     "es": "Percibible",
     "fi": "Havaittava",
-    "de": "Wahrnehmbar"
+    "de": "Wahrnehmbar",
+    "it": "Percepibile"
   },
   "operable": {
     "en": "Operable",
@@ -165,7 +185,8 @@
     "pt-br": "Operável",
     "es": "Operable",
     "fi": "Hallittava",
-    "de": "Bedienbar"
+    "de": "Bedienbar",
+    "it": "Operabile"
   },
   "understandable": {
     "en": "Understandable",
@@ -173,7 +194,8 @@
     "pt-br": "Compreensível",
     "es": "Entendible",
     "fi": "Ymmärrettävä",
-    "de": "Verständlich"
+    "de": "Verständlich",
+    "it": "Comprensibile"
   },
   "robust": {
     "en": "Robust",
@@ -181,7 +203,8 @@
     "pt-br": "Robusto",
     "es": "Robusto",
     "fi": "Toimintavarma",
-    "de": "Robust"
+    "de": "Robust",
+    "it": "Robusto"
   },
   "results_per_principle": {
     "en": "Results by principle",
@@ -189,7 +212,8 @@
     "pt-br": "Resultados por princípio",
     "es": "Resultados por principio",
     "fi": "Tulokset periaatteittain",
-    "de": "Ergebnisse je Prinzip"
+    "de": "Ergebnisse je Prinzip",
+    "it": "Risultati per principio"
   },
   "total": {
     "en": "Total",
@@ -197,7 +221,8 @@
     "pt-br": "Total",
     "es": "Total",
     "fi": "Yhteensä",
-    "de": "Gesamt"
+    "de": "Gesamt",
+    "it": "Totale"
   },
   "of": {
     "en": "of",
@@ -205,7 +230,8 @@
     "pt-br": "de",
     "es": "de",
     "fi": "/",
-    "de": "von"
+    "de": "von",
+    "it": "di"
   },
   "all_pages": {
     "en": "All pages",
@@ -213,7 +239,8 @@
     "pt-br": "Todas as páginas",
     "es": "Todas las páginas",
     "fi": "Kaikki sivut",
-    "de": "Alle Seiten betreffend"
+    "de": "Alle Seiten betreffend",
+    "it": "Tutte le pagine"
   },
   "accessibility_support": {
     "en": "Accessibility support",
@@ -221,7 +248,8 @@
     "pt-br": "Suporte de acessibilidade",
     "es": "Soporte de accesibilidad",
     "fi": "Tuki",
-    "de": "Unterstützung von Barrierefreiheit"
+    "de": "Unterstützung von Barrierefreiheit",
+    "it": "Supporto per l'accessibilità"
   },
   "technologies_used": {
     "en": "Technologies used",
@@ -229,7 +257,8 @@
     "pt-br": "Tecnologias utilizadas",
     "es": "Tecnologías utilizadas",
     "fi": "Käytetyt teknologiat",
-    "de": "Eingesetzte Technologien"
+    "de": "Eingesetzte Technologien",
+    "it": "Tecnologia usata"
   },
   "accessibility_support_explanation": {
     "en": "The audited website should work in at least the following browsers and assistive technologies: ",
@@ -237,7 +266,8 @@
     "pt-br": "O site auditado deve funcionar pelo menos nos seguintes navegadores e tecnologias assistivas: ",
     "es": "El sitio web auditado debe trabajar en al menos los siguientes navegadores y tecnologías de asistencia: ",
     "fi": "Auditoidun sivuston tulisi toimia seuraavilla selaimilla ja avustavilla teknologioilla: ",
-    "de": "Die analysierte Webseite sollte zumindest die zugängliche Nutzung mit den folgenden Internetzugangsprogrammen (Browser) und assistiven Technologien ermöglichen: "
+    "de": "Die analysierte Webseite sollte zumindest die zugängliche Nutzung mit den folgenden Internetzugangsprogrammen (Browser) und assistiven Technologien ermöglichen: ",
+    "it": "Il sito web dovrebbe funzionare almeno nei seguenti browser e tecnologie assistive: "
   },
   "technologies_explanation": {
     "en": "The audited web page relies on the following technologies: ",
@@ -245,7 +275,8 @@
     "pt-br": "A página da web auditada conta com as seguintes tecnologias: ",
     "es": "La página web auditada utiliza en las siguientes tecnologías: ",
     "fi": "Auditoitu sivusto käyttää seuraavia teknologioita: ",
-    "de": "Die analysierte Webseite setzt auf die folgenden Technologien: "
+    "de": "Die analysierte Webseite setzt auf die folgenden Technologien: ",
+    "it": "Le pagina web controllata si basa sulle seguenti tecnologie: "
   },
   "tip": {
     "en": "Tip",
@@ -253,7 +284,8 @@
     "pt-br": "Dica",
     "es": "Consejo",
     "fi": "Vinkki",
-    "de": "Tipp"
+    "de": "Tipp",
+    "it": "Suggerimento"
   },
   "tips": {
     "en": "Tips",
@@ -261,7 +293,8 @@
     "pt-br": "Dicas",
     "es": "Sugerencias",
     "fi": "Vinkit",
-    "de": "Tipps"
+    "de": "Tipps",
+    "it": "Suggerimenti"
   },
   "external_link": {
     "en": "external link",
@@ -269,7 +302,8 @@
     "pt-br": "link externo",
     "es": "Link externo",
     "fi": "ulkoinen linkki",
-    "de": "Externer Seitenlink"
+    "de": "Externer Seitenlink",
+    "it": "Link esterno"
   },
   "base_uri": {
     "en": "https://www.w3.org/WAI/WCAG21/quickref/?versions=2.1",
@@ -277,6 +311,7 @@
     "pt-br": "https://www.w3c.br/traducoes/wcag/wcag21-pt-BR/",
     "es": "http://www.codexexempla.org/traducciones/pautas-accesibilidad-contenido-web-2.0.htm",
     "fi": "https://www.w3.org/Translations/WCAG21-fi/",
-    "de": "https://www.barrierefreies-webdesign.de/richtlinien/wcag-2.1/"
+    "de": "https://www.barrierefreies-webdesign.de/richtlinien/wcag-2.1/",
+    "it": "https://www.w3.org/Translations/WCAG21-it/"
   }
 }
