@@ -1,10 +1,9 @@
-const fs = require("fs");
-const path = require("path");
-const prompt = require("prompt");
-const colors = require("colors/safe");
-const copy = require("copy");
-const slugify = require("slugify");
-const openEditor = require("open-editor");
+import fs from "fs";
+import path from "path";
+import prompt from "prompt";
+import colors from "colors";
+import slugify from "slugify";
+import openEditor from "open-editor";
 
 if (process.argv.length < 3) {
   console.error("expected EARL file: node add-earl-report.js earl.json");
@@ -16,7 +15,8 @@ prompt.delimiter = "";
 
 prompt.start();
 
-const target = path.join(__dirname, "src/reports");
+const dirname = new URL(".", import.meta.url).pathname;
+const target = path.join(dirname, "src/reports");
 
 function createIndex(earl, targetFolder, reportname) {
   const indextemplate = `---
@@ -26,11 +26,11 @@ title: ${reportname}
 language: en
 evaluation:
   evaluator: ${earl.assertor["doap:name"]}
-  commissioner: TODO
+  commissioner: ${earl.project["commissioner"]}
   target: WCAG 2.1, Level AA
   targetLevel: AA
   targetWcagVersion: 2.1
-  date: TODO
+  date: ${earl.project["dct:date"]}
 scope:
   - ${earl.project["dct:description"]}
 out_of_scope:
@@ -90,7 +90,7 @@ ${issue.test.description}
 
 (async () => {
   let earl = false;
-  const earlPath = path.relative(__dirname, process.argv[2]);
+  const earlPath = path.relative(dirname, process.argv[2]);
   if (!fs.existsSync(earlPath)) {
     console.error(`EARL file ${earlPath} does not exist`);
     process.exit(1);
@@ -107,7 +107,7 @@ ${issue.test.description}
   const reportname = earl.project["dct:title"];
   const report = slugify(reportname);
   const targetFolder = `${target}/${report}`;
-  const relativeTargetFolder = path.relative(__dirname, targetFolder);
+  const relativeTargetFolder = path.relative(dirname, targetFolder);
 
   if (fs.existsSync(targetFolder)) {
     console.log("");
@@ -121,7 +121,7 @@ ${issue.test.description}
   console.log(colors.cyan("Name for new report:"), reportname);
   console.log("Do you want to generate a new report in", colors.yellow(`./${relativeTargetFolder}`) + "?");
   const { agreement } = await prompt.get({ description: "Y/n", name: "agreement" });
-  if (!["y", "yes"].includes(agreement.toLowercase()) || agreement === "") {
+  if (!["y", "yes"].includes(agreement.toLowerCase()) || agreement === "") {
     console.error("aborting");
     process.exit(1);
   }
@@ -136,7 +136,7 @@ ${issue.test.description}
   console.log(`Do you want to open ${colors.yellow(`./${relativeTargetFolder}/index.njk`)} now?`);
   const { open } = await prompt.get({ description: "Y/n", name: "open" });
 
-  if (!["y", "yes"].includes(open.toLowercase()) || open === "") {
+  if (!["y", "yes"].includes(open.toLowerCase()) || open === "") {
     try {
       openEditor([`${targetFolder}/index.njk:0:0`]);
     } catch (error) {

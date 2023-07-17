@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Polypane/eleventy-wcag-reporter#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "eleventy-plugin-markdown-shortcode": "^1.1.0"
   },
   "devDependencies": {
