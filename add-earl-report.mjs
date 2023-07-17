@@ -19,6 +19,28 @@ const dirname = new URL(".", import.meta.url).pathname;
 const target = path.join(dirname, "src/reports");
 
 function createIndex(earl, targetFolder, reportname) {
+  const samples = {};
+
+  const issues = earl.assertions
+    .filter((assertion) => assertion.result.outcome === "earl:failed")
+    .map((issue) =>
+      issue.subject.forEach((subject) => {
+        samples[subject.source] = {
+          url: subject.source,
+          title: subject["dct:title"],
+        };
+      })
+    );
+
+  const formattedSamples = Object.values(samples)
+    .map(
+      (sample) => `- title: ${sample.title}
+  id: ${sample.url}
+  url: ${sample.url}
+`
+    )
+    .join("\n");
+
   const indextemplate = `---
 layout: report
 tags: reports
@@ -43,6 +65,8 @@ technologies:
   - JavaScript
   - WAI-ARIA
   - SVG
+sample:
+${formattedSamples}
 ---`;
 
   fs.writeFileSync(`${targetFolder}/index.njk`, indextemplate);
@@ -69,8 +93,6 @@ function createIssueFiles(earl, targetFolder) {
   issues.forEach((issue) => {
     const template = `---
 sc: ${issue.test.isPartOf ? issue.test.isPartOf.map((x) => x.title.split(":")[1].trim()).join(", ") : "none"}
-severity: TODO
-difficulty: TODO
 title: ${issue.test.title}
 sample: ${issue.subject.map((x) => x.source).join(", ")}
 ---

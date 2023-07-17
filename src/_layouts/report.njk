@@ -125,14 +125,19 @@ layout: base
               </a>
             </dd>
           </div>
+          
+          {% if issue.data.difficulty %}
           <div>
             <dt>{{ translations.difficulty[language] }}: </dt>
             <dd>{{ issue.data.difficulty }}</a></dd>
           </div>
+          {% endif %}
+          {% if issue.data.severity %}
           <div>
             <dt>{{ translations.severity[language] }}: </dt>
             <dd>{{ issue.data.severity }}</dd>
           </div>
+          {% endif %}
           <div>
             <dt>{{ translations.sample[language] }}: </dt>
             {% if issue.data.sample == "all" %}
@@ -166,14 +171,18 @@ layout: base
 
       <div class="issue-meta">
         <dl>
+          {% if issue.data.difficulty %}
           <div>
             <dt>{{ translations.difficulty[language] }}: </dt>
             <dd>{{ issue.data.difficulty }}</a></dd>
           </div>
+          {% endif %}
+          {% if issue.data.severity %}
           <div>
             <dt>{{ translations.severity[language] }}: </dt>
             <dd>{{ issue.data.severity }}</dd>
           </div>
+          {% endif %}
           <div>
             <dt>{{ translations.sample[language] }}: </dt>
             {% if issue.data.sample == "all" %}
