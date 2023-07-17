@@ -1,0 +1,363 @@
+{
+  "@context": {
+    "@vocab": "http://www.w3.org/ns/earl#",
+    "earl": "http://www.w3.org/ns/earl#",
+    "WCAG20": "http://www.w3.org/TR/WCAG20/#",
+    "WCAG21": "http://www.w3.org/TR/WCAG21/#",
+    "dct": "http://purl.org/dc/terms/",
+    "sch": "https://schema.org/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "ptr": "http://www.w3.org/2009/pointers#",
+    "assertions": {
+      "@reverse": "subject"
+    },
+    "pointer": {
+      "@type": "ptr:CSSSelectorPointer"
+    }
+  },
+  "assertor": {
+    "@type": ["earl:MainAssertor", "earl:Assertor", "earl:Software", "doap:Project"],
+    "@id": "https://polypane.cloud/",
+    "doap:name": "Polypane Cloud",
+    "doap:description": "Automated Accessibility testing",
+    "doap:homepage": "https://polypane.cloud/",
+    "doap:release": {
+      "doap:revision": "0.0.1"
+    },
+    "doap:vendor": {
+      "@id": "https://polypane.cloud/",
+      "@type": "foaf:Organization",
+      "foaf:name": "Polypane Cloud"
+    }
+  },
+  "project": {
+    "@type": ["earl:TestSubject", "sch:WebSite"],
+    "@id": "fixa11y.com",
+    "dct:hasPart": ["https://fixa11y.com"],
+    "dct:title": "fixa11y.com",
+    "dct:description": "All crawlable pages of fixa11y.com"
+  },
+  "assertions": [
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "Meer dan éen H1 element gevonden.",
+        "description": "Deze pagina heeft meer dan éen H1 element."
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:passed"
+      },
+      "mode": "earl:automatic"
+    },
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "Heading is hidden",
+        "description": "The heading is hidden on this page"
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:passed"
+      },
+      "mode": "earl:automatic"
+    },
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "Casing of accessible name of heading is different from text content",
+        "description": "The casing of the accessible name of a header is different from the text content"
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:passed"
+      },
+      "mode": "earl:automatic"
+    },
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "Multiple landmark elements with the same role found at the same level",
+        "description": "Landmark elements with the same role found at the same level"
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:failed"
+      },
+      "mode": "earl:automatic",
+      "subject": [
+        {
+          "@type": ["earl:TestSubject", "sch:WebPage"],
+          "dct:title": "FixA11y — improving accessibility",
+          "source": "https://fixa11y.com"
+        }
+      ]
+    },
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "No main landmark found",
+        "description": "No main landmark found."
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:passed"
+      },
+      "mode": "earl:automatic"
+    },
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "No nav landmark found",
+        "description": "No nav landmark found"
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:passed"
+      },
+      "mode": "earl:automatic"
+    },
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "Geen H1 gevonden!",
+        "description": "There is no h1 element on this page"
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:passed"
+      },
+      "mode": "earl:automatic"
+    },
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "Skipped heading level",
+        "description": "Skipped heading levels found on this page."
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:passed"
+      },
+      "mode": "earl:automatic"
+    },
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "No footer landmark found",
+        "description": "No footer landmark found"
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:passed"
+      },
+      "mode": "earl:automatic"
+    },
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "Headings with the same accessible name found",
+        "description": "Multiple headings with the same accessible name found"
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:failed"
+      },
+      "mode": "earl:automatic",
+      "subject": [
+        {
+          "@type": ["earl:TestSubject", "sch:WebPage"],
+          "dct:title": "FixA11y — improving accessibility",
+          "source": "https://fixa11y.com"
+        }
+      ]
+    },
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "No header landmark found",
+        "description": "No header landmark found"
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:passed"
+      },
+      "mode": "earl:automatic"
+    },
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "Mentioning the role in the label of a landmark is redundant.",
+        "description": "The label of a landmark contains the type of the landmark. Assistive technologies already provide this information."
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:passed"
+      },
+      "mode": "earl:automatic"
+    },
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "Accessible name is different from text content",
+        "description": "The textual content of the heading is not the same as the accessible name",
+        "isPartOf": [
+          {
+            "title": "WCAG21: 2.5.3"
+          }
+        ]
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:passed"
+      },
+      "mode": "earl:automatic"
+    },
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "Multiple landmark elements with the same role without unique titles",
+        "description": "Multiple landmark elements with the same role but without unique titles make it hard for users of assistive technologies to tell them apart."
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:failed"
+      },
+      "mode": "earl:automatic",
+      "subject": [
+        {
+          "@type": ["earl:TestSubject", "sch:WebPage"],
+          "dct:title": "FixA11y — improving accessibility",
+          "source": "https://fixa11y.com"
+        }
+      ]
+    },
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "Heading is empty",
+        "description": "Headings without content found on this page.",
+        "isPartOf": [
+          {
+            "title": "WCAG21: 1.3.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:passed"
+      },
+      "mode": "earl:automatic"
+    },
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "Heading has a role of presentation",
+        "description": "A heading has a role of presentation, taking it out of the heading structure.",
+        "isPartOf": [
+          {
+            "title": "WCAG21: 1.3.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:failed"
+      },
+      "mode": "earl:automatic",
+      "subject": [
+        {
+          "@type": ["earl:TestSubject", "sch:WebPage"],
+          "dct:title": "FixA11y — improving accessibility",
+          "source": "https://fixa11y.com"
+        }
+      ]
+    },
+    {
+      "@type": "earl:Assertion",
+      "assertedBy": {
+        "@id": "https://polypane.cloud/"
+      },
+      "test": {
+        "@type": "earl:TestCriterion",
+        "title": "A landmark with role \"complementary\" can't be inside another landmark",
+        "description": "Complementary landmarks can only be used outside of other landmarks.",
+        "isPartOf": [
+          {
+            "title": "WCAG21: 4.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "earl:TestResult",
+        "outcome": "earl:passed"
+      },
+      "mode": "earl:automatic"
+    }
+  ]
+}

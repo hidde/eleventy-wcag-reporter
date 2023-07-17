@@ -92,6 +92,8 @@ layout: base
         <a href="{{ sample.url }}">{{ sample.url }}</a>
         <p>{{ sample.description }}</p></li>
       </div>
+    {% else %}
+    <li><em>{{ translations.no_sample[language] }}</em></li>
     {% endfor %}
   </ul>
 </section>

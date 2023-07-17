@@ -72,12 +72,20 @@
     "de": "Beispiel"
   },
   "representative_sample": {
-    "en": "Representative sample",
-    "nl": "Voor dit onderzoek zijn de volgende pagina's gebruikt als representatieve steekproef van de onderzochte website:",
-    "pt-br": "Para este estudo, as seguintes páginas foram utilizadas como uma amostra representativa do site pesquisado:",
-    "es": "Muestra representativa",
-    "fi": "Edustava otos",
-    "de": "Repräsentatives Beispiel"
+    "en": "All crawlable pages have been scanned. Additionally, the following pages (if any) have been used as a representative sample of the website for manual testing:",
+    "nl": "Alle doorzoekbare pagina's zijn gescand. Daarnaast zijn de volgende pagina's (indien aanwezig) gebruikt als een representatieve steekproef van de website voor handmatige testen:",
+    "pt-br": "Todas as páginas rastreáveis foram verificadas. Além disso, as seguintes páginas (se houver) foram utilizadas como uma amostra representativa do site para testes manuais:",
+    "es": "Todas las páginas rastreables han sido escaneadas. Adicionalmente, las siguientes páginas (si las hay) han sido utilizadas como una muestra representativa del sitio web para pruebas manuales:",
+    "fi": "Kaikki sivuston läpikäytävät sivut on tarkistettu. Lisäksi seuraavia sivuja (jos sellaisia on) on käytetty sivuston edustavana otoksena manuaalisia testejä varten:",
+    "de": "Alle durchsuchbaren Seiten wurden gescannt. Zusätzlich wurden die folgenden Seiten (falls vorhanden) als repräsentative Stichprobe der Website für manuelle Tests verwendet:"
+  },
+  "no_sample": {
+    "en": "This report does not contain manual testing.",
+    "nl": "Dit rapport bevat geen handmatige testen.",
+    "pt-br": "Este relatório não contém testes manuais.",
+    "es": "Este informe no contiene pruebas manuales.",
+    "de": "Dieser Bericht enthält keine manuellen Tests.",
+    "fi": "Tässä raportissa ei ole manuaalisia testejä."
   },
   "not_in_scope": {
     "en": "Not in scope",
