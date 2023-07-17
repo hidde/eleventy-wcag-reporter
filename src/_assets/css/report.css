@@ -172,6 +172,8 @@ code {
     .wcag-link {
         text-decoration: none;
         background-color: midnightblue;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
         color: white;
         padding: .25em 1em;
         font-size: .75em;
