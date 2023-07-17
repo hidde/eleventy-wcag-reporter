@@ -85,9 +85,6 @@ layout: base
     {% for sample in sample %}
     <li id="{{ sample.id }}">
       <div>
-        <img src="{% sample_image sample.id, page.fileSlug %}" alt="" />
-      </div>
-      <div>
         <strong>{{ sample.title }}</strong>
         <a href="{{ sample.url }}">{{ sample.url }}</a>
         <p>{{ sample.description }}</p></li>
