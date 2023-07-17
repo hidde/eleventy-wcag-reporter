@@ -27,7 +27,7 @@ function createIndex(earl, targetFolder, reportname) {
       issue.subject.forEach((subject) => {
         samples[subject.source] = {
           url: subject.source,
-          title: subject["dct:title"],
+          title: '"' + subject["dct:title"] + '"',
         };
       })
     );
@@ -35,7 +35,7 @@ function createIndex(earl, targetFolder, reportname) {
   const formattedSamples = Object.values(samples)
     .map(
       (sample) => `- title: ${sample.title}
-  id: ${sample.url}
+  id: ${slugify(sample.url.split("//")[1].replaceAll(".", ""))}
   url: ${sample.url}
 `
     )
@@ -56,7 +56,7 @@ evaluation:
 scope:
   - ${earl.project["dct:description"]}
 out_of_scope:
-  - Non-crawlable content
+  - Non-crawlable content (PDFs, pages that require login, etc.)
 baseline:
   - Chromium (latest)
 technologies:
