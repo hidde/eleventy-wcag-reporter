@@ -17,7 +17,12 @@
     }
   },
   "assertor": {
-    "@type": ["earl:MainAssertor", "earl:Assertor", "earl:Software", "doap:Project"],
+    "@type": [
+      "earl:MainAssertor",
+      "earl:Assertor",
+      "earl:Software",
+      "doap:Project"
+    ],
     "@id": "https://polypane.cloud/",
     "doap:name": "Polypane Cloud",
     "doap:description": "Automated Accessibility testing",
@@ -32,11 +37,18 @@
     }
   },
   "project": {
-    "@type": ["earl:TestSubject", "sch:WebSite"],
+    "@type": [
+      "earl:TestSubject",
+      "sch:WebSite"
+    ],
     "@id": "fixa11y.com",
-    "dct:hasPart": ["https://fixa11y.com"],
+    "dct:hasPart": [
+      "https://fixa11y.com"
+    ],
     "dct:title": "fixa11y.com",
-    "dct:description": "All crawlable pages of fixa11y.com"
+    "dct:description": "All crawlable pages of fixa11y.com",
+    "dct:date": "2023-07-06T09:13:45.756",
+    "commissioner": "Polypane Cloud Team"
   },
   "assertions": [
     {
@@ -104,7 +116,10 @@
       "mode": "earl:automatic",
       "subject": [
         {
-          "@type": ["earl:TestSubject", "sch:WebPage"],
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
           "dct:title": "FixA11y — improving accessibility",
           "source": "https://fixa11y.com"
         }
@@ -207,7 +222,10 @@
       "mode": "earl:automatic",
       "subject": [
         {
-          "@type": ["earl:TestSubject", "sch:WebPage"],
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
           "dct:title": "FixA11y — improving accessibility",
           "source": "https://fixa11y.com"
         }
@@ -283,7 +301,10 @@
       "mode": "earl:automatic",
       "subject": [
         {
-          "@type": ["earl:TestSubject", "sch:WebPage"],
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
           "dct:title": "FixA11y — improving accessibility",
           "source": "https://fixa11y.com"
         }
@@ -332,7 +353,10 @@
       "mode": "earl:automatic",
       "subject": [
         {
-          "@type": ["earl:TestSubject", "sch:WebPage"],
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
           "dct:title": "FixA11y — improving accessibility",
           "source": "https://fixa11y.com"
         }
