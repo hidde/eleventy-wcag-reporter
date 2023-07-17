@@ -140,7 +140,9 @@ layout: base
             {% if issue.data.sample == "all" %}
             <dd>{{ translations.all_pages[language] }}</dd>
             {% else %}
-            <dd><a href="#{{ issue.data.sample }}">{{ issue.data.sample }}</a></dd>
+              {% for sample in issue.data.sample %}
+                <dd><a href="#{{ sample.id }}">{{ sample.url }}</a></dd>
+              {% endfor %}
             {% endif %}
           </div>
         </dl>
@@ -185,7 +187,9 @@ layout: base
             {% if issue.data.sample == "all" %}
             <dd>{{ translations.all_pages[language] }}</dd>
             {% else %}
-            <dd><a href="#{{ issue.data.sample }}">{{ issue.data.sample }}</a></dd>
+              {% for sample in issue.data.sample %}
+                <dd><a href="#{{ sample.id }}">{{ sample.url }}</a></dd>
+              {% endfor %}
             {% endif %}
           </div>
         </dl>

@@ -15,6 +15,8 @@ prompt.delimiter = "";
 
 prompt.start();
 
+const urlToID = (url) => slugify(url.split("//")[1].replaceAll(".", ""));
+
 const dirname = new URL(".", import.meta.url).pathname;
 const target = path.join(dirname, "src/reports");
 
@@ -35,7 +37,7 @@ function createIndex(earl, targetFolder, reportname) {
   const formattedSamples = Object.values(samples)
     .map(
       (sample) => `- title: ${sample.title}
-  id: ${slugify(sample.url.split("//")[1].replaceAll(".", ""))}
+  id: ${urlToID(sample.url)}
   url: ${sample.url}
 `
     )
@@ -94,7 +96,13 @@ function createIssueFiles(earl, targetFolder) {
     const template = `---
 sc: ${issue.test.isPartOf ? issue.test.isPartOf.map((x) => x.title.split(":")[1].trim()).join(", ") : "none"}
 title: ${issue.test.title}
-sample: ${issue.subject.map((x) => x.source).join(", ")}
+sample: 
+${issue.subject
+  .map(
+    (x) => `- url: "${x.source}"
+  id: ${urlToID(x.source)}`
+  )
+  .join("\n")}
 ---
 
 #### Problem
