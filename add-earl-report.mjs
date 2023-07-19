@@ -15,7 +15,7 @@ prompt.delimiter = "";
 
 prompt.start();
 
-const urlToID = (url) => slugify(url.split("//")[1].replaceAll(".", ""));
+const urlToID = (url) => slugify(url.split("//")[1].replaceAll(".", "").replaceAll(":", "_"));
 
 const dirname = new URL(".", import.meta.url).pathname;
 const target = path.join(dirname, "src/reports");
@@ -29,7 +29,7 @@ function createIndex(earl, targetFolder, reportname) {
       issue.subject.forEach((subject) => {
         samples[subject.source] = {
           url: subject.source,
-          title: '"' + subject["dct:title"] + '"',
+          title: '"' + subject["dct:title"].replaceAll('"', '&quot;') + '"',
         };
       })
     );
