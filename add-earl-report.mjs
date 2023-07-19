@@ -151,7 +151,7 @@ ${issue.test.description}
   console.log(colors.cyan("Name for new report:"), reportname);
   console.log("Do you want to generate a new report in", colors.yellow(`./${relativeTargetFolder}`) + "?");
   const { agreement } = await prompt.get({ description: "Y/n", name: "agreement" });
-  if (!["y", "yes"].includes(agreement.toLowerCase()) || agreement === "") {
+  if (!(["y", "yes"].includes(agreement.toLowerCase()) || agreement === "")) {
     console.error("aborting");
     process.exit(1);
   }
