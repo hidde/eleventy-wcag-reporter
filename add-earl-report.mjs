@@ -115,7 +115,6 @@ function createIssueFiles(earl, targetFolder) {
   id: ${urlToID(x.source)}`
     );
 
-    console.log(allSamples.length, totalpages)
     const onAllPages = allSamples.length === totalpages;
     const total = Math.min(allSamples.length);
 
