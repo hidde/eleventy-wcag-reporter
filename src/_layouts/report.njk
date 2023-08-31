@@ -87,7 +87,7 @@ layout: base
       <div>
         <strong>{{ sample.title }}</strong>
         <a href="{{ sample.url }}">{{ sample.url }}</a>
-        <p>{{ sample.description }}</p></li>
+        {% if sample.description %}<p>{{ sample.description }}</p></li>{% endif %}
       </div>
     {% else %}
     <li><em>{{ translations.no_sample[language] }}</em></li>
@@ -137,12 +137,14 @@ layout: base
           {% endif %}
           <div>
             <dt>{{ translations.sample[language] }}: </dt>
-            {% if issue.data.sample == "all" %}
-            <dd>{{ translations.all_pages[language] }}</dd>
+            {% if issue.data.onallpages %}
+              <dd>{{ translations.all_pages[language] }} ({{ issue.data.total }})</dd>
             {% else %}
               {% for sample in issue.data.sample %}
                 <dd><a href="#{{ sample.id }}">{{ sample.url }}</a></dd>
               {% endfor %}
+              <dt>{{ translations.totalsample[language] }}: </dt>
+              <dd>{{ issue.data.total }}</dd>
             {% endif %}
           </div>
         </dl>
@@ -184,12 +186,14 @@ layout: base
           {% endif %}
           <div>
             <dt>{{ translations.sample[language] }}: </dt>
-            {% if issue.data.sample == "all" %}
-            <dd>{{ translations.all_pages[language] }}</dd>
+            {% if issue.data.onallpages %}
+              <dd>{{ translations.all_pages[language] }} ({{ issue.data.total }})</dd>
             {% else %}
               {% for sample in issue.data.sample %}
                 <dd><a href="#{{ sample.id }}">{{ sample.url }}</a></dd>
               {% endfor %}
+              <dt>{{ translations.totalsample[language] }}: </dt>
+              <dd>{{ issue.data.total }}</dd>
             {% endif %}
           </div>
         </dl>

@@ -10,6 +10,14 @@ if (process.argv.length < 3) {
   process.exit(1);
 }
 
+// settings
+const shownSamples = 20;
+const shownIssueSamples = 5;
+
+// global state
+let totalpages = 0;
+
+// start
 prompt.message = "";
 prompt.delimiter = "";
 
@@ -29,19 +37,27 @@ function createIndex(earl, targetFolder, reportname) {
       issue.subject.forEach((subject) => {
         samples[subject.source] = {
           url: subject.source,
-          title: '"' + subject["dct:title"].replaceAll('"', '&quot;') + '"',
+          title: '"' + subject["dct:title"].replaceAll('"', "&quot;") + '"',
         };
       })
     );
 
-  const formattedSamples = Object.values(samples)
-    .map(
-      (sample) => `- title: ${sample.title}
+  const allSamples = Object.values(samples).map(
+    (sample) => `- title: ${sample.title}
   id: ${urlToID(sample.url)}
   url: ${sample.url}
 `
-    )
-    .join("\n");
+  );
+  totalpages = allSamples.length;
+
+  const formattedSamples =
+    allSamples.slice(0, shownSamples).join("\n") +
+    (allSamples.length > shownSamples
+      ? `- title: ${allSamples.length - shownSamples} other pages scanned but not listed in the sample.
+  id: none
+  url: ${earl.project["@id"]}
+  `
+      : "");
 
   const indextemplate = `---
 layout: report
@@ -67,6 +83,7 @@ technologies:
   - JavaScript
   - WAI-ARIA
   - SVG
+
 sample:
 ${formattedSamples}
 ---`;
@@ -93,16 +110,24 @@ function createIssueFiles(earl, targetFolder) {
   const issues = earl.assertions.filter((assertion) => assertion.result.outcome === "earl:failed");
 
   issues.forEach((issue) => {
+    const allSamples = issue.subject.map(
+      (x) => `- url: "${x.source}"
+  id: ${urlToID(x.source)}`
+    );
+
+    console.log(allSamples.length, totalpages)
+    const onAllPages = allSamples.length === totalpages;
+    const total = Math.min(allSamples.length);
+
     const template = `---
 sc: ${issue.test.isPartOf ? issue.test.isPartOf.map((x) => x.title.split(":")[1].trim()).join(", ") : "none"}
 title: ${issue.test.title}
+onallpages: ${onAllPages}
+total: ${total}
 sample: 
-${issue.subject
-  .map(
-    (x) => `- url: "${x.source}"
-  id: ${urlToID(x.source)}`
-  )
-  .join("\n")}
+${allSamples.slice(0, shownIssueSamples).join("\n")}
+allsamples: 
+${allSamples.join("\n")}
 ---
 
 #### Problem

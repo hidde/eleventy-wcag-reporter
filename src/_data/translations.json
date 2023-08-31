@@ -71,6 +71,14 @@
     "fi": "Otos",
     "de": "Beispiel"
   },
+  "totalsample": {
+    "en": "Affected pages",
+    "nl": "Getroffen pagina's",
+    "pt-br": "Páginas afetadas",
+    "es": "Páginas afectadas",
+    "fi": "Vaikutetut sivut",
+    "de": "Betroffene Seiten"
+  },
   "representative_sample": {
     "en": "All crawlable pages have been scanned. Additionally, the following pages (if any) have been used as a representative sample of the website for manual testing:",
     "nl": "Alle doorzoekbare pagina's zijn gescand. Daarnaast zijn de volgende pagina's (indien aanwezig) gebruikt als een representatieve steekproef van de website voor handmatige testen:",
