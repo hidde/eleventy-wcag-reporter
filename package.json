@@ -8,7 +8,8 @@
     "dev": "eleventy --serve --port=1337",
     "build": "eleventy",
     "create-pdf": "./create_report.sh",
-    "add-report": "node add-report.js"
+    "add-report": "node add-report.js",
+    "add-earl": "node add-earl-report.mjs"
   },
   "repository": {
     "type": "git",
