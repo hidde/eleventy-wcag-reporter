@@ -1,42 +1,51 @@
 ---
 layout: report
 tags: reports
-title: The Example Company
+title: example
 language: en
 evaluation:
-  evaluator: V. van Gogh
-  commissioner: The Example Company
+  evaluator: Polypane Cloud
+  commissioner: Kilian's Team
   target: WCAG 2.1, Level AA
   targetLevel: AA
   targetWcagVersion: 2.1
-  date: June 21, 2021
-  special requirements: Please also list accessibility problems that are not conformance failures
+  date: 2023-07-05T14:15:45.236
 scope:
-  - All pages on example.com
+  - All crawlable pages of superposition.design
 out_of_scope:
-  - The RSS feed (https://foo.com/rss)
-  - Other page 2
-  - Some other page
+  - Non-crawlable content (PDFs, pages that require login, etc.)
 baseline:
-  - Microsoft Edge (last 3 versions)
-  - Mozilla Firefox (last 3 versions)
-  - Google Chrome (last 3 versions)
-  - Apple Safari (last 3 versions)
-  - Apple Safari on iOS
-  - common assistive technologies
+  - Chromium (latest)
 technologies:
   - HTML
   - CSS
   - JavaScript
   - WAI-ARIA
   - SVG
+
 sample:
-  - title: Homepage
-    id: homepage
-    url: https://example.com
-    description: The homepage of Example Company.
-  - title: Blog post
-    id: blog-post
-    url: https://example.com/blog/example-post
-    description: An example of a blog post
+- title: "Addons | Superposition design tokens"
+  id: superpositiondesignaddons
+  url: https://superposition.design/addons/
+
+- title: "Changelog | Superposition design tokens"
+  id: superpositiondesignchangelog
+  url: https://superposition.design/changelog/
+
+- title: "Figma Plugin | Superposition design tokens"
+  id: superpositiondesignfigma-plugin
+  url: https://superposition.design/figma-plugin/
+
+- title: "Support | Superposition design tokens"
+  id: superpositiondesignsupport
+  url: https://superposition.design/support/
+
+- title: "Adobe XD Plugin | Superposition design tokens"
+  id: superpositiondesignxd-plugin
+  url: https://superposition.design/xd-plugin/
+
+- title: "Superposition: Use the design system you already have"
+  id: superpositiondesign
+  url: https://superposition.design
+
 ---

@@ -41,14 +41,19 @@
       "earl:TestSubject",
       "sch:WebSite"
     ],
-    "@id": "fixa11y.com",
+    "@id": "superposition.design",
     "dct:hasPart": [
-      "https://fixa11y.com"
+      "https://superposition.design",
+      "https://superposition.design/addons/",
+      "https://superposition.design/changelog/",
+      "https://superposition.design/figma-plugin/",
+      "https://superposition.design/support/",
+      "https://superposition.design/xd-plugin/"
     ],
-    "dct:title": "fixa11y.com",
-    "dct:description": "All crawlable pages of fixa11y.com",
-    "dct:date": "2023-07-06T09:13:45.756",
-    "commissioner": "Polypane Cloud Team"
+    "dct:title": "example",
+    "dct:description": "All crawlable pages of superposition.design",
+    "dct:date": "2023-07-05T14:15:45.236",
+    "commissioner": "Kilian's Team"
   },
   "assertions": [
     {
@@ -63,9 +68,51 @@
       },
       "result": {
         "@type": "earl:TestResult",
-        "outcome": "earl:passed"
+        "outcome": "earl:failed"
       },
-      "mode": "earl:automatic"
+      "mode": "earl:automatic",
+      "subject": [
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Addons | Superposition design tokens",
+          "source": "https://superposition.design/addons/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Changelog | Superposition design tokens",
+          "source": "https://superposition.design/changelog/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Figma Plugin | Superposition design tokens",
+          "source": "https://superposition.design/figma-plugin/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Support | Superposition design tokens",
+          "source": "https://superposition.design/support/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Adobe XD Plugin | Superposition design tokens",
+          "source": "https://superposition.design/xd-plugin/"
+        }
+      ]
     },
     {
       "@type": "earl:Assertion",
@@ -95,9 +142,27 @@
       },
       "result": {
         "@type": "earl:TestResult",
-        "outcome": "earl:passed"
+        "outcome": "earl:failed"
       },
-      "mode": "earl:automatic"
+      "mode": "earl:automatic",
+      "subject": [
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Figma Plugin | Superposition design tokens",
+          "source": "https://superposition.design/figma-plugin/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Adobe XD Plugin | Superposition design tokens",
+          "source": "https://superposition.design/xd-plugin/"
+        }
+      ]
     },
     {
       "@type": "earl:Assertion",
@@ -120,8 +185,48 @@
             "earl:TestSubject",
             "sch:WebPage"
           ],
-          "dct:title": "FixA11y — improving accessibility",
-          "source": "https://fixa11y.com"
+          "dct:title": "Superposition: Use the design system you already have",
+          "source": "https://superposition.design"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Addons | Superposition design tokens",
+          "source": "https://superposition.design/addons/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Changelog | Superposition design tokens",
+          "source": "https://superposition.design/changelog/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Figma Plugin | Superposition design tokens",
+          "source": "https://superposition.design/figma-plugin/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Support | Superposition design tokens",
+          "source": "https://superposition.design/support/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Adobe XD Plugin | Superposition design tokens",
+          "source": "https://superposition.design/xd-plugin/"
         }
       ]
     },
@@ -137,9 +242,59 @@
       },
       "result": {
         "@type": "earl:TestResult",
-        "outcome": "earl:passed"
+        "outcome": "earl:failed"
       },
-      "mode": "earl:automatic"
+      "mode": "earl:automatic",
+      "subject": [
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Superposition: Use the design system you already have",
+          "source": "https://superposition.design"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Addons | Superposition design tokens",
+          "source": "https://superposition.design/addons/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Changelog | Superposition design tokens",
+          "source": "https://superposition.design/changelog/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Figma Plugin | Superposition design tokens",
+          "source": "https://superposition.design/figma-plugin/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Support | Superposition design tokens",
+          "source": "https://superposition.design/support/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Adobe XD Plugin | Superposition design tokens",
+          "source": "https://superposition.design/xd-plugin/"
+        }
+      ]
     },
     {
       "@type": "earl:Assertion",
@@ -226,8 +381,40 @@
             "earl:TestSubject",
             "sch:WebPage"
           ],
-          "dct:title": "FixA11y — improving accessibility",
-          "source": "https://fixa11y.com"
+          "dct:title": "Superposition: Use the design system you already have",
+          "source": "https://superposition.design"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Addons | Superposition design tokens",
+          "source": "https://superposition.design/addons/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Figma Plugin | Superposition design tokens",
+          "source": "https://superposition.design/figma-plugin/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Support | Superposition design tokens",
+          "source": "https://superposition.design/support/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Adobe XD Plugin | Superposition design tokens",
+          "source": "https://superposition.design/xd-plugin/"
         }
       ]
     },
@@ -305,8 +492,48 @@
             "earl:TestSubject",
             "sch:WebPage"
           ],
-          "dct:title": "FixA11y — improving accessibility",
-          "source": "https://fixa11y.com"
+          "dct:title": "Superposition: Use the design system you already have",
+          "source": "https://superposition.design"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Addons | Superposition design tokens",
+          "source": "https://superposition.design/addons/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Changelog | Superposition design tokens",
+          "source": "https://superposition.design/changelog/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Figma Plugin | Superposition design tokens",
+          "source": "https://superposition.design/figma-plugin/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Support | Superposition design tokens",
+          "source": "https://superposition.design/support/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Adobe XD Plugin | Superposition design tokens",
+          "source": "https://superposition.design/xd-plugin/"
         }
       ]
     },
@@ -357,8 +584,48 @@
             "earl:TestSubject",
             "sch:WebPage"
           ],
-          "dct:title": "FixA11y — improving accessibility",
-          "source": "https://fixa11y.com"
+          "dct:title": "Superposition: Use the design system you already have",
+          "source": "https://superposition.design"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Addons | Superposition design tokens",
+          "source": "https://superposition.design/addons/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Changelog | Superposition design tokens",
+          "source": "https://superposition.design/changelog/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Figma Plugin | Superposition design tokens",
+          "source": "https://superposition.design/figma-plugin/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Support | Superposition design tokens",
+          "source": "https://superposition.design/support/"
+        },
+        {
+          "@type": [
+            "earl:TestSubject",
+            "sch:WebPage"
+          ],
+          "dct:title": "Adobe XD Plugin | Superposition design tokens",
+          "source": "https://superposition.design/xd-plugin/"
         }
       ]
     },
