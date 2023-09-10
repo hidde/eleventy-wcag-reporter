@@ -29,6 +29,8 @@ Like this?
 | Finnish              | fi      | Report itself, WCAG 2.0/1      | @eevajonnapanula  |
 | German               |  de     | Report itself, WCAG 2.0/1      | @mfranzke         |
 | Latinamerican Spanish |  es  | Report itself, WCAG 2.0/1      | @danisaurio       |
+| Italiano |  it  | Report itself, WCAG 2.1      | @fupete       |
+
 
 Want to contribute a language? [Create an issue](https://github.com/hidde/eleventy-wcag-reporter/issues/new?assignees=&labels=i18n&template=add-language-support.md&title=Add+translation%3A+%5Blanguage%5D) (to indicate you'd like to take this on; the template has some instructions) and file a Pull Request.
 
