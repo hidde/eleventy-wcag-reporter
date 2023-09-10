@@ -1,4 +1,27 @@
 {
+  "2.2": {
+    "A": {
+      "all": 32,
+      "perceivable": 9,
+      "operable": 14,
+      "understandable": 7,
+      "robust": 2
+    },
+    "AA": {
+      "all": 55,
+      "perceivable": 20,
+      "operable": 20,
+      "understandable": 13,
+      "robust": 3
+    },
+    "AAA": {
+      "all": 86,
+      "perceivable": 28,
+      "operable": 34,
+      "understandable": 21,
+      "robust": 3
+    }
+  },
   "2.1": {
     "A": {
       "all": 30,
