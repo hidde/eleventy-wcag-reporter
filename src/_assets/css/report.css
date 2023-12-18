@@ -176,6 +176,8 @@ code {
         padding: .25em 1em;
         font-size: .75em;
         border-radius: 1em;
+        margin-bottom:0.25rem;
+        display:inline-block;
     }
 }
 
